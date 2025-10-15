@@ -34,8 +34,9 @@ We have   $$\begin{align*}
 \rightarrow && \frac{1}{2}&=\frac{1}{3}+\frac{1}{6}\\ \\
 \end{align*}$$
 Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
+***End Spoiler 1***
 
-It would seem we have an answer to our simple 
+It would seem at this point we can conjecture an answer to our simple question.
 
 
 
@@ -45,7 +46,7 @@ It would seem we have an answer to our simple
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTIzNjk2MiwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbMzE3MjEzMTA5LDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
