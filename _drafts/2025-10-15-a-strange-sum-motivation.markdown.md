@@ -23,7 +23,10 @@ In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n
 If you'd like to play along with this post, take some time to think about this question yourself, and see what you come up with.
 
 ***Spoiler 1***
-The first thing you might notice 
+The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
+Pretty basic, right?
+
+The next thing you might try is $\frac{1}{2}=\frac{1}{3}+x$
 
 
 
@@ -33,7 +36,7 @@ The first thing you might notice
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk3NzQwNjAsMTc2NTA3ODY2MSw0OT
-k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
-fQ==
+eyJoaXN0b3J5IjpbMTk0ODc4NDA2MSwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+
 -->
