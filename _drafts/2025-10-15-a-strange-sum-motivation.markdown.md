@@ -39,8 +39,10 @@ Continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 
 It would seem at this point we can make a conjecture to answer to our ***Simple Question.***
 
+***Conjecture 1***
+Let $n, m \in \mathbb{N}$, where $b \neq 0$. 
 
-
+Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 
 
 
@@ -48,7 +50,7 @@ It would seem at this point we can make a conjecture to answer to our ***Simple 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzQ2MTI3MCwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbMjQzODUxNzkwLDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
