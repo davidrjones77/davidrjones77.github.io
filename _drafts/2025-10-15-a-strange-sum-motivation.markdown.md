@@ -24,7 +24,7 @@ If you'd like to play along with this post, take some time to think about this q
 
 ***Spoiler 1***
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
-So far, so good.
+So far, so good!
 
 Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for $x.$
 We have   $$\begin{align*}
@@ -36,7 +36,8 @@ We have   $$\begin{align*}
 Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 ***End Spoiler 1***
 
-It would seem at this point we can conjecture an answer to our simple question.
+It would seem at this point we can mak a conjecture to answer to our simple question.
+
 
 
 
@@ -46,7 +47,7 @@ It would seem at this point we can conjecture an answer to our simple question.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MjEzMTA5LDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
-
+eyJoaXN0b3J5IjpbLTExNDUxNDM1MzAsMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
