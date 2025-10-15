@@ -46,8 +46,8 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 
 But hang on - is there anything special about the 1 in the numerator?
 And did our proof take advantage of anything intrinsic to whole numbers?
-Why not generalize our result?
-Let's write it as a theorem.
+In other words, can we generalize our result?
+Let's do just that.
 
 ***Theorem 1***
 Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
@@ -59,7 +59,7 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)} \ \ \ \blacksquare
 \end{align*}$$
 \
-In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
+We need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
 
 ### Expanding Terms
 But why stop at two terms?
@@ -71,7 +71,7 @@ But why stop at two terms?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTcwNzUxOCwtMTMyNjQ1Nzg1Miw3Nj
-M5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUs
-OTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNTc1NTc0MDgsLTEzMjY0NTc4NTIsNzYzOT
+IyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2
+Mzk3MDY4MSwxNDIyODMwMjExXX0=
 -->
