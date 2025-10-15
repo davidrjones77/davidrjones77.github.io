@@ -31,7 +31,9 @@ We have   $$\begin{align*}
 && x&=\frac{1}{2}-\frac{1}{3} \\  \\
 \rightarrow && x&=\frac{3}{6}-\frac{2}{6} \\ \\
 \rightarrow && x&=\frac{1}{6} \\ \\
+\rightarrow && \frac{1}{2}&=\frac{1}{3}+\frac{1}{6}\\ \\
 \end{align*}$$
+So, $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this ap
 
 
 
@@ -41,7 +43,7 @@ We have   $$\begin{align*}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzQzNTE1MCwxNzY1MDc4NjYxLDQ5OT
+eyJoaXN0b3J5IjpbMTkwNTY4NTI5MywxNzY1MDc4NjYxLDQ5OT
 Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
