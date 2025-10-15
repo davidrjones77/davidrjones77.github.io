@@ -49,8 +49,6 @@ And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, can we generalize our result?
 It turns out we can.
 
-### Generalizing
-
 ***Theorem 1***
 Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
 
@@ -63,6 +61,9 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 \
 In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
 
+### Generalizing
+But 
+
 
 
 
@@ -70,7 +71,7 @@ In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MDM5ODYzLDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbODg4MzU5ODYsMTc2NTA3ODY2MSw0OTk0OT
+g1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 
 -->
