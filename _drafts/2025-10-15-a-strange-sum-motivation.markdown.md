@@ -26,7 +26,7 @@ If you'd like to play along with this post, take some time to think about this q
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
 So far, so good.
 
-The next thing you might try is $\frac{1}{2}=\frac{1}{3}+x$
+Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for 
 
 
 
@@ -36,7 +36,7 @@ The next thing you might try is $\frac{1}{2}=\frac{1}{3}+x$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjMxOTQxNCwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbNTIwNDgxMTU2LDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
