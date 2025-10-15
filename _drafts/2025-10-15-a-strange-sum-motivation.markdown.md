@@ -4,13 +4,13 @@ title:  "A Strange Sum - Motivation"
 date:   2025-10-15 20:09:15 -0400
 categories: infinite_series
 ---
-
+## Recap
 In the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
-### Motivation
+## Motivation
 Where did this expression come from?
 I was initially interested in a much simpler question.
 
@@ -46,7 +46,7 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 
 But hang on - is there anything special about the 1 in the numerator?
 And did our proof take advantage of anything intrinsic to whole numbers?
-In other words, we should be able to generalize our result, so let's do that.
+In other words, we should be able to generalize our result, taking care to restrict $b$ to prevent division by zero.
 
 ***Theorem 1***
 Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
@@ -57,8 +57,6 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
   $$\begin{align*}
  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)} \ \ \ \blacksquare
 \end{align*}$$
-\
-We need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
 
 ### Expanding Terms
 But why stop at two terms?
@@ -70,7 +68,7 @@ But why stop at two terms?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3Nj
-M5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUs
-OTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbMTgzOTI5NDcyOSwyMDczMTI1Nzg2LC0xMz
+I2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0
+NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 -->
