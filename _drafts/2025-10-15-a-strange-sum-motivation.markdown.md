@@ -37,12 +37,13 @@ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$.
 Continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 ***End Spoiler 1***
 
-It would seem at this point we can make a conjecture to answer to our ***Simple Question.***
+It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
 ***Conjecture 1***
-Let $n, m \in \mathbb{N}$, where $b \neq 0$. 
+Let $n \in \mathbb{N}$, where $n \neq 0$. 
 
-Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
+Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
+
 
 
 
@@ -50,7 +51,7 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzODUxNzkwLDE3NjUwNzg2NjEsNDk5ND
+eyJoaXN0b3J5IjpbMjAzNzY3MjgyLDE3NjUwNzg2NjEsNDk5ND
 k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
