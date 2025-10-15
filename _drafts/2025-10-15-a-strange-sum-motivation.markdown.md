@@ -64,7 +64,7 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 But why stop at two terms?
 After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
-
+Can we generalize ***Theorem 1*** to a sum of $n$ t
 
 
 
@@ -74,7 +74,7 @@ We should be able to expand terms on the right hand side of ***Theorem 1*** as m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NTk3NjE3LDIwNzMxMjU3ODYsLTEzMj
-Y0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2
-LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTEzODI5MzAyNTYsMjA3MzEyNTc4NiwtMT
+MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
+NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
