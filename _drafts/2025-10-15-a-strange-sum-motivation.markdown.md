@@ -66,7 +66,7 @@ After all, the terms on the right hand side of ***Theorem 1*** are just fraction
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
 Can we generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number?
 
- ***Corollary 1***
+ ***Theorem 2***
 Let $n \in \N_{\geq1}.$
 Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
 
@@ -91,7 +91,7 @@ Letting $n=1,$ we have by ***Theorem 1***
 <font color="blue">*Inductive step:*</font>
  Assume $P(n)$ is true for some fixed, arbitrary $n.$
 
-Then by the <font color="red">inductive hypothesis</font> and <font color="blue">***Lemma 1.3.9***</font>, 
+Then by the <font color="red">inductive hypothesis</font> and <font color="blue">***Theorem 1***</font>, 
  $$\begin{align*}
  && \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \color{blue}{\frac{a}{(b+n)(b+n+1)}} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
@@ -109,7 +109,7 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNTI2Nzg2LDIwNzMxMjU3ODYsLTEzMj
+eyJoaXN0b3J5IjpbNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMj
 Y0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2
 LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 -->
