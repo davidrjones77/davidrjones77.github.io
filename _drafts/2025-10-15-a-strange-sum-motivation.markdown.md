@@ -46,7 +46,10 @@ So we have an answer to our ***Simple Question*** - *the reciprocal of any whole
 Moreover, we now know a formula for that sum - our curiosity has rewarded us with information we weren't initially looking for.
 
 But hang on - is there anything special about the 1 in the numerator?
+And did our proof take advantage of anything intrinsic to whole numbers?
+In other words, can we generalize our result?
 
+It turns out we can.
 
 
 
@@ -55,7 +58,7 @@ But hang on - is there anything special about the 1 in the numerator?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTIzNDUwNSwxNzY1MDc4NjYxLDQ5OT
+eyJoaXN0b3J5IjpbLTc2NjU3ODEzOSwxNzY1MDc4NjYxLDQ5OT
 Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
