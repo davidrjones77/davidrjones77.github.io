@@ -47,7 +47,8 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 
 But hang on - is there anything special about the 1 in the numerator?
 And did our proof take advantage of anything intrinsic to whole numbers?
-In other words, we should be able to generalize our result, taking care to restrict $b$ to prevent division by zero.
+In other words, we should be able to generalize our result (taking care to restrict $b$ to prevent division by zero).
+Let's do that.
 
 ***Theorem 1***
 Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
@@ -61,6 +62,7 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 
 ### Expanding Terms
 But why stop at two terms?
+After all, the terms o
 
 
 
@@ -69,7 +71,7 @@ But why stop at two terms?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYyNzMzMzcsMjA3MzEyNTc4NiwtMT
+eyJoaXN0b3J5IjpbLTEwNjEzMzcxMzksMjA3MzEyNTc4NiwtMT
 MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
 NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
