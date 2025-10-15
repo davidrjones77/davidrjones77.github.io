@@ -63,7 +63,8 @@ In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we'
 
 ### Generalizing
 This is a nice little theorem.
-But there's nothing speci***Theorem 1***
+But there's nothing special about the two terms on the right hand side in ***Theorem 1*** - those are fractions having a complex number in numerator and denominator, just like the left hand side of ***Theorem 1***.
+
 
 
 
@@ -72,7 +73,7 @@ But there's nothing speci***Theorem 1***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDg2MTY0MCwxNzY1MDc4NjYxLDQ5OT
+eyJoaXN0b3J5IjpbMTkxOTYyNDM2OSwxNzY1MDc4NjYxLDQ5OT
 Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
