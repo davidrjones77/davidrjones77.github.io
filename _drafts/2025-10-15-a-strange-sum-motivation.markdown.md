@@ -46,8 +46,8 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 
 But hang on - is there anything special about the 1 in the numerator?
 And did our proof take advantage of anything intrinsic to whole numbers?
-In other words, can we generalize our result?
-It turns out we can.
+Why not generalize our result?
+Let's write it as a theorem.
 
 ***Theorem 1***
 Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
@@ -71,7 +71,7 @@ But why stop at two terms?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3Nj
-UwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwx
-NDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbMTU3MTcwNzUxOCwtMTMyNjQ1Nzg1Miw3Nj
+M5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUs
+OTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
