@@ -64,7 +64,42 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 But why stop at two terms?
 After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
-Can we generalize ***Theorem 1*** to a sum of $n$ t
+Can we generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number?
+
+ ***Corollary 1***
+Let $n \in \N_{\geq1}.$
+Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
+
+Then $$\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$
+
+***Proof***
+We give a proof by induction.
+
+Let $P(n)$ be the claim $\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}.$
+
+<font color="blue">*Base case:*</font>
+Letting $n=1,$ we have by ***Theorem 1*** 
+ $$\begin{align*}
+ &&\frac{a}{b} &= \frac{a}{b+1} + \frac{a}{b(b+1)} \\ \\
+ \rightarrow && \frac{a}{b} &= \frac{a}{b+1} + \sum^0_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+  \rightarrow && \frac{a}{b} &= \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} 
+ \end{align*}$$ 
+
+ Thus $P(1)$ is true. 
+ \
+\
+<font color="blue">*Inductive step:*</font>
+ Assume $P(n)$ is true for some fixed, arbitrary $n.$
+
+Then by the <font color="red">inductive hypothesis</font> and <font color="blue">***Lemma 1.3.9***</font>, 
+ $$\begin{align*}
+ && \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \color{blue}{\frac{a}{(b+n)(b+n+1)}} \\ \\
+ \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
+ \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}} \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\ 
+  \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+ \end{align*}$$
+
+ Thus $P(n)$ is true for all $n \geq 1$.
 
 
 
@@ -74,7 +109,7 @@ Can we generalize ***Theorem 1*** to a sum of $n$ t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI5MzAyNTYsMjA3MzEyNTc4NiwtMT
-MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
-NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNTgxNTI2Nzg2LDIwNzMxMjU3ODYsLTEzMj
+Y0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2
+LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 -->
