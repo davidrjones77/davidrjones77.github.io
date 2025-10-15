@@ -26,7 +26,10 @@ If you'd like to play along with this post, take some time to think about this q
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
 So far, so good.
 
-Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for 
+Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for $x.$
+We have   $$\begin{align*}
+&& \frac{1}{2}-\frac{1}{3}&=x \\ 
+\end{align*}$$
 
 
 
@@ -36,7 +39,7 @@ Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNDgxMTU2LDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
-
+eyJoaXN0b3J5IjpbLTExMDIyMTc3ODMsMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
