@@ -23,13 +23,8 @@ In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n
 If you'd like to play along with this post, take some time to think about this question yourself, and see what you come up with.
 
 <details>
-  <summary></summary>
-  This is the hidden content that will only be visible after clicking the summary.
-  You can include **any** Markdown content here, including:
-  * Lists
-  * Code blocks
-  ```python
-  print("Hello, spoiler!")
+  <summary>A First Theorem</summary>
+
  </details>
 
 
@@ -40,7 +35,7 @@ If you'd like to play along with this post, take some time to think about this q
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM0MDE3MzYsMTc2NTA3ODY2MSw0OT
+eyJoaXN0b3J5IjpbLTE0ODI1NDg4NDcsMTc2NTA3ODY2MSw0OT
 k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
 fQ==
 -->
