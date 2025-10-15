@@ -18,7 +18,10 @@ I was initially interested in a much simpler question:
 *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
-Here, $n'$ and $n''$ are also whole numbers.
+(Here, $n'$ and $n''$ are also whole numbers.)
+
+If you'd like to play along with this post, take some time to think about this question yourself, and see what you come up with.
+
 
 
 
@@ -28,7 +31,7 @@ Here, $n'$ and $n''$ are also whole numbers.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ0MzgyNDQsMTc2NTA3ODY2MSw0OT
+eyJoaXN0b3J5IjpbLTEyODQzMTUwNzIsMTc2NTA3ODY2MSw0OT
 k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
 fQ==
 -->
