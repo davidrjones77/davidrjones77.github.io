@@ -29,19 +29,19 @@ We have   $$\begin{align*}
 \rightarrow && x&=\frac{3}{6}-\frac{2}{6} \\ \\
 \rightarrow && x&=\frac{1}{6} \\ \\
 \rightarrow && \frac{1}{2}&=\frac{1}{3}+\frac{1}{6}\\ \\
-\end{align*}$$
-Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$.
-Continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
-***End Spoiler 1***
+\end{align*}$$ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
+
 
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
-***Spoiler 2***
 ***Conjecture 1***
 Let $n \in \mathbb{N}$, where $n \neq 0$. 
 
 Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
-***End Spoiler 2***
+***Proof***
+  $$\begin{align*}
+ \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)}
+\end{align*}$$
 
 
 
@@ -50,7 +50,7 @@ Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE4Mjk3NjUsMTc2NTA3ODY2MSw0OT
-k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
-fQ==
+eyJoaXN0b3J5IjpbOTQ5NDQ1ODIsMTc2NTA3ODY2MSw0OTk0OT
+g1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+
 -->
