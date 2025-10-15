@@ -43,6 +43,8 @@ Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} =  \frac{1}{n+1} + \frac{1}{n(n+1)} \ \ \ \blacksquare
 \end{align*}$$
 So we have an answer to our ***Simple Question*** - *the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
+Moreover, we now know the form of that sum. 
+Our curiosity has re
 
 
 
@@ -51,7 +53,7 @@ So we have an answer to our ***Simple Question*** - *the reciprocal of any whole
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4Mjc2MzY3LDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTQwNDY2MzQxNSwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
