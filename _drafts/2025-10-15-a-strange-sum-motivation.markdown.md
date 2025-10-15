@@ -11,7 +11,7 @@ If so, for which values of omega does this sum converge?
 
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 \
-By asking a simple (seemingly unrelated) question, we can develop a th 
+By asking a simple (seemingly unrelated) question, we can arrive at a theorem which 
 
 
 
@@ -20,6 +20,6 @@ By asking a simple (seemingly unrelated) question, we can develop a th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMTgxMDEwLC0yMDcwMTA1LDk2Mzk3MD
+eyJoaXN0b3J5IjpbNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MD
 Y4MSwxNDIyODMwMjExXX0=
 -->
