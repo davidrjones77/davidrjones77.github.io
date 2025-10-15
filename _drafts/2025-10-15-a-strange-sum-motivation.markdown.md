@@ -48,8 +48,17 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 But hang on - is there anything special about the 1 in the numerator?
 And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, can we generalize our result?
-
 It turns out we can.
+
+***Theorem 1***
+Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
+
+Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
+
+***Proof***
+  $$\begin{align*}
+ \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)}
+\end{align*}$$
 
 
 
@@ -58,7 +67,7 @@ It turns out we can.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjU3ODEzOSwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
-
+eyJoaXN0b3J5IjpbLTEzMTA0MDY1OTksMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
