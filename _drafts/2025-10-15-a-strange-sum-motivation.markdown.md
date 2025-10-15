@@ -33,7 +33,9 @@ We have   $$\begin{align*}
 \rightarrow && x&=\frac{1}{6} \\ \\
 \rightarrow && \frac{1}{2}&=\frac{1}{3}+\frac{1}{6}\\ \\
 \end{align*}$$
-So, $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this ap
+So, $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach, we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
+
+It would seem that for any w
 
 
 
@@ -43,7 +45,7 @@ So, $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this ap
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTY4NTI5MywxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
-
+eyJoaXN0b3J5IjpbLTEwNzI0ODIzMzksMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
