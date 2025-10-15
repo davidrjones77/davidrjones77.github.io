@@ -15,7 +15,7 @@ Let's call this sum $\sum^\infty_\Omega$.
 Where did this expression come from?
 
 I was initially interested in a much simpler question:
-When can we express the reciprocal of a whole number as the sum of reciprocals of whole numbers?
+When can we express the reciprocal of a whole number as the sum of 2 other reciprocals of whole numbers?
 
 
 
@@ -25,6 +25,7 @@ When can we express the reciprocal of a whole number as the sum of reciprocals o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNz
-AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNjYwNTU0NDM1LDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+
 -->
