@@ -6,6 +6,7 @@ categories: infinite_series
 ---
 
 Recall in the last post, I presented a strange sum (see below).
+Let's call this sum $\sum^\inf
 Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 
@@ -14,7 +15,7 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 ### Motivation
 Where did this expression come from?
 
-I
+In this post, I will give the motivation and development for 
 
 
 
@@ -24,6 +25,6 @@ I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTczNjM2Niw0OTk0OTg1NDYsLTIwNz
+eyJoaXN0b3J5IjpbLTE1MDY1OTM2OCw0OTk0OTg1NDYsLTIwNz
 AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
