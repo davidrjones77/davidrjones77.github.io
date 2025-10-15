@@ -57,17 +57,17 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 
 ***Proof***
   $$\begin{align*}
- \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)}
+ \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)} \ \ \ \blacksquare
 \end{align*}$$
-
-
+\
+In ***Theorem 1***, need to restrict $b$ to prevent division by zero, 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA0MDY1OTksMTc2NTA3ODY2MSw0OT
+eyJoaXN0b3J5IjpbLTE4NTczNjAwMTMsMTc2NTA3ODY2MSw0OT
 k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
 fQ==
 -->
