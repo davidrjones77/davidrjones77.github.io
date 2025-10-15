@@ -15,7 +15,7 @@ Let's call this sum $\sum^\infty_\Omega$.
 Where did this expression come from?
 
 I was initially interested in a much simpler question:
-Given a reciprocal of a whole number (say, $\frac{1}{n}$)
+When can we express the reciprocal of a whole number as the sum of reciprocals of whole numbers?
 
 
 
@@ -25,6 +25,6 @@ Given a reciprocal of a whole number (say, $\frac{1}{n}$)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTk1NDU5Niw0OTk0OTg1NDYsLTIwNz
+eyJoaXN0b3J5IjpbMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNz
 AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
