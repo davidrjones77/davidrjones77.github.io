@@ -5,7 +5,7 @@ date:   2025-10-15 20:09:15 -0400
 categories: infinite_series
 ---
 
-Recall in the last post, I presented a strange sum (see below).
+In the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
@@ -61,11 +61,8 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 \
 In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
 
-### Generalizing
-This is a nice little theorem.
-But there's nothing special about the two terms on the right hand side in ***Theorem 1*** - those are fractions having a complex number in numerator and denominator, just like the left hand side of ***Theorem 1***.
-
-In other words, we can apply ***Theorem 1*** to the right hand side of ***Theorem 1*** as many times as we like.
+### Expanding Terms
+But why stop at two terms?
 
 
 
@@ -74,7 +71,7 @@ In other words, we can apply ***Theorem 1*** to the right hand side of ***Theore
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
-
+eyJoaXN0b3J5IjpbLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3Nj
+UwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwx
+NDIyODMwMjExXX0=
 -->
