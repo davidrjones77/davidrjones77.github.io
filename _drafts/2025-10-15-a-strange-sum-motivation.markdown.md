@@ -15,7 +15,7 @@ Let's call this sum $\sum^\infty_\Omega$.
 Where did this expression come from?
 
 I was initially interested in a much simpler question:
-*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+***Simple Question***When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -36,8 +36,8 @@ We have   $$\begin{align*}
 Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 ***End Spoiler 1***
 
-It would seem at this point we can mak a conjecture to answer to our simple question.
-
+It would seem at this point we can make a conjecture to answer to our simple question about the 
+For those playing along, see if you can prove a theorem 
 
 
 
@@ -47,7 +47,7 @@ It would seem at this point we can mak a conjecture to answer to our simple ques
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUxNDM1MzAsMTc2NTA3ODY2MSw0OT
-k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
-fQ==
+eyJoaXN0b3J5IjpbMTMzODM1NDE4NiwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+
 -->
