@@ -13,8 +13,7 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 \
 If you're an amateur like me, I hope you're saying to yourself, "I have no idea how to solve this."
 Neither do I!
-
-But yet I stumbled upon 
+But by asking myself a seem
 
 
 
@@ -23,6 +22,6 @@ But yet I stumbled upon
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDk5OTIzNiwtMjA3MDEwNSw5NjM5Nz
+eyJoaXN0b3J5IjpbLTkzNDQ0MjI0MCwtMjA3MDEwNSw5NjM5Nz
 A2ODEsMTQyMjgzMDIxMV19
 -->
