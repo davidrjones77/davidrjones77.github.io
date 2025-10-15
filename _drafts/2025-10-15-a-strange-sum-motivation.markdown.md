@@ -10,8 +10,12 @@ Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
-\
-One w
+
+### Motivation
+Where did this expression come from?
+
+I
+
 
 
 
@@ -20,6 +24,6 @@ One w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NDU5MzEwLDQ5OTQ5ODU0NiwtMjA3MD
-EwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbLTQ2MTczNjM2Niw0OTk0OTg1NDYsLTIwNz
+AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
