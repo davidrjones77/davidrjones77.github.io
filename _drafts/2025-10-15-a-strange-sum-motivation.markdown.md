@@ -22,10 +22,8 @@ In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n
 
 If you'd like to play along with this post, take some time to think about this question yourself, and see what you come up with.
 
-<details>
-  <summary>A First Theorem</summary>
-
- </details>
+***Spoiler 1***
+The first thing you might notice 
 
 
 
@@ -35,7 +33,7 @@ If you'd like to play along with this post, take some time to think about this q
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI1NDg4NDcsMTc2NTA3ODY2MSw0OT
+eyJoaXN0b3J5IjpbLTIwNTk3NzQwNjAsMTc2NTA3ODY2MSw0OT
 k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
 fQ==
 -->
