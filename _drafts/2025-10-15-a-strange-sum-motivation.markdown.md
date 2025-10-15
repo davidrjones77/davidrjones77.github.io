@@ -40,7 +40,7 @@ Let $n \in \mathbb{N}$, where $n \neq 0$.
 Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 ***Proof***
   $$\begin{align*}
- \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)}
+ \frac{1}{n} &= \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} =  \frac{1}{n+1} + \frac{1}{n(n+1)}
 \end{align*}$$
 
 
@@ -50,7 +50,7 @@ Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NDQ1ODIsMTc2NTA3ODY2MSw0OTk0OT
-g1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbLTc5ODc5NjExMiwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
