@@ -35,7 +35,7 @@ We have   $$\begin{align*}
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
 ***Conjecture 1***
-Let $n \in \mathbb{N}_{leq 1}$, where $n \neq 0$. 
+Let $n \in \mathbb{N}_{\geq 1}$. 
 
 Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 ***Proof***
@@ -109,8 +109,8 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3Mjg1NzE2LDQ0ODQyMTkxNiwyMDczMT
-I1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYx
-LDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMD
-IxMV19
+eyJoaXN0b3J5IjpbMTQ0MDAyMDg1NCw0NDg0MjE5MTYsMjA3Mz
+EyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2
+MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4Mz
+AyMTFdfQ==
 -->
