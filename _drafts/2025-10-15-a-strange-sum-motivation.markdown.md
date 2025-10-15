@@ -6,6 +6,9 @@ categories: infinite_series
 ---
 
 Recall in the last post, I presented a strange sum (see below).
+Are there values of omega for which this expression is mathematically defined?
+Of those, do any of the sums converge?
+How would one go about analy
 
 
 
@@ -18,6 +21,6 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4Mz
-AyMTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MDQ1MDk0NzgsLTIwNzAxMDUsOTYzOT
+cwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
