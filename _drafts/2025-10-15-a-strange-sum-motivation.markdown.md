@@ -15,7 +15,8 @@ Let's call this sum $\sum^\infty_\Omega$.
 Where did this expression come from?
 
 I was initially interested in a much simpler question:
-When can we express the reciprocal of a whole number as the sum of 2 other reciprocals of whole numbers?
+When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?
+In other words, for which whole numbers $n $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$
 
 
 
@@ -25,7 +26,7 @@ When can we express the reciprocal of a whole number as the sum of 2 other recip
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNTU0NDM1LDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTU3NTMxNTQ0NCwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
