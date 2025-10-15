@@ -24,7 +24,7 @@ If you'd like to play along with this post, take some time to think about this q
 
 ***Spoiler 1***
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
-Pretty basic, right?
+So far, so good.
 
 The next thing you might try is $\frac{1}{2}=\frac{1}{3}+x$
 
@@ -36,7 +36,7 @@ The next thing you might try is $\frac{1}{2}=\frac{1}{3}+x$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODc4NDA2MSwxNzY1MDc4NjYxLDQ5OT
+eyJoaXN0b3J5IjpbMTIyNjMxOTQxNCwxNzY1MDc4NjYxLDQ5OT
 Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
