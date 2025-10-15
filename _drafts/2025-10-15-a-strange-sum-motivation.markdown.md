@@ -9,7 +9,6 @@ Recall in the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
-Let's call this sum $\sum^\infty_\Omega$.
 
 ### Motivation
 Where did this expression come from?
@@ -69,7 +68,7 @@ In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTY5ODcwNiwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
-
+eyJoaXN0b3J5IjpbLTIxMDg4MDg0OTksMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
