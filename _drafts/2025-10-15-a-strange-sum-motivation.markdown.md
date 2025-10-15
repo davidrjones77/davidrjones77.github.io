@@ -65,6 +65,7 @@ In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we'
 This is a nice little theorem.
 But there's nothing special about the two terms on the right hand side in ***Theorem 1*** - those are fractions having a complex number in numerator and denominator, just like the left hand side of ***Theorem 1***.
 
+In other words, we can apply ***Theorem 1*** to the right hand side of ***Theorem 1*** as many times as we like.
 
 
 
@@ -73,7 +74,7 @@ But there's nothing special about the two terms on the right hand side in ***The
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTYyNDM2OSwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
