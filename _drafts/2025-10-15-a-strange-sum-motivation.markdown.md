@@ -60,7 +60,7 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)} \ \ \ \blacksquare
 \end{align*}$$
 
-### Expanding Terms
+## Expanding Terms
 But why stop at two terms?
 After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
@@ -109,7 +109,7 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDAyMDg1NCw0NDg0MjE5MTYsMjA3Mz
+eyJoaXN0b3J5IjpbLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3Mz
 EyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2
 MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4Mz
 AyMTFdfQ==
