@@ -28,7 +28,9 @@ So far, so good.
 
 Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for $x.$
 We have   $$\begin{align*}
-&& \frac{1}{2}-\frac{1}{3}&=x \\ 
+&& x&=\frac{1}{2}-\frac{1}{3} \\  \\
+\rightarrow && x&=\frac{3}{6}-\frac{2}{6} \\ \\
+\rightarrow && x&=\frac{1}{6} \\ \\
 \end{align*}$$
 
 
@@ -39,7 +41,7 @@ We have   $$\begin{align*}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIyMTc3ODMsMTc2NTA3ODY2MSw0OT
-k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
-fQ==
+eyJoaXN0b3J5IjpbMTQ1MzQzNTE1MCwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+
 -->
