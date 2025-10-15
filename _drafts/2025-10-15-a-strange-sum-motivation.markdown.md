@@ -20,9 +20,6 @@ I was initially interested in a much simpler question.
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
 
-If you'd like to play along with this post, take some time to think about this question yourself, and see what you come up with.
-
-***Spoiler 1***
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.
 So far, so good!
 
@@ -39,10 +36,12 @@ Continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
+***Spoiler 2***
 ***Conjecture 1***
 Let $n \in \mathbb{N}$, where $n \neq 0$. 
 
 Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
+***End Spoiler 2***
 
 
 
@@ -51,7 +50,7 @@ Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY3MjgyLDE3NjUwNzg2NjEsNDk5ND
-k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
-
+eyJoaXN0b3J5IjpbLTE2NjE4Mjk3NjUsMTc2NTA3ODY2MSw0OT
+k0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFd
+fQ==
 -->
