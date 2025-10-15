@@ -62,7 +62,8 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 In ***Theorem 1***, we need to restrict $b$ to prevent division by zero, but we've generalized our result to the complex numbers, simply by noticing that the proof given for the conjecture is equally valid for $\mathbb{C}$, and that the numerator didn't need to be restricted to 1.
 
 ### Generalizing
-But 
+This is a nice little theorem.
+But there's nothing speci***Theorem 1***
 
 
 
@@ -71,7 +72,7 @@ But
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4MzU5ODYsMTc2NTA3ODY2MSw0OTk0OT
-g1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbLTQ2NDg2MTY0MCwxNzY1MDc4NjYxLDQ5OT
+Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 
 -->
