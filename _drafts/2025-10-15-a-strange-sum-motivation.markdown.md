@@ -40,8 +40,9 @@ Let $n \in \mathbb{N}$, where $n \neq 0$.
 Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 ***Proof***
   $$\begin{align*}
- \frac{1}{n} &= \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} =  \frac{1}{n+1} + \frac{1}{n(n+1)}
+ \frac{1}{n} &= \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} =  \frac{1}{n+1} + \frac{1}{n(n+1)} &q.e.d
 \end{align*}$$
+So we have an answer to our ***Simple Question*** - for every whoe
 
 
 
@@ -50,7 +51,7 @@ Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc5NjExMiwxNzY1MDc4NjYxLDQ5OT
-Q5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbNTk1OTM0MjUyLDE3NjUwNzg2NjEsNDk5ND
+k4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 
 -->
