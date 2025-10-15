@@ -62,7 +62,8 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 
 ### Expanding Terms
 But why stop at two terms?
-After all, the terms on the right hand side of ***Theorem 1*** are just fractions having numerator and denominator as complex numbers, and so may be expanded according to ***Theorem 1
+After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
+We should be able to expand terms on the right hand si
 
 
 
@@ -71,7 +72,7 @@ After all, the terms on the right hand side of ***Theorem 1*** are just fraction
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MTM3OTE4LDIwNzMxMjU3ODYsLTEzMj
-Y0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2
-LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbMjAxMTE0MzU4MywyMDczMTI1Nzg2LC0xMz
+I2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0
+NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 -->
