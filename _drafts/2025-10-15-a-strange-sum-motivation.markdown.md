@@ -4,6 +4,7 @@ title:  "A Strange Sum - Motivation"
 date:   2025-10-15 20:09:15 -0400
 categories: infinite_series
 ---
+# A Strange Sum - Motivation
 ## Recap
 In the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
@@ -11,7 +12,7 @@ If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
 ## Motivation
-Where did this expression come from?
+Where does this expression come from?
 I was initially interested in a much simpler question.
 
 ***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
@@ -68,7 +69,7 @@ But why stop at two terms?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTI5NDcyOSwyMDczMTI1Nzg2LC0xMz
-I2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0
-NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbLTE1NTYyNzMzMzcsMjA3MzEyNTc4NiwtMT
+MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
+NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
