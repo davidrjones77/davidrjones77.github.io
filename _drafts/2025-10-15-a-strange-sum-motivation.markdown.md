@@ -14,7 +14,8 @@ Let's call this sum $\sum^\infty_\Omega$.
 ### Motivation
 Where did this expression come from?
 
-I was initially interested in 
+I was initially interested in a much simpler question:
+Given a reciprocal of a whole number (say, $\frac{1}{n}$)
 
 
 
@@ -24,6 +25,6 @@ I was initially interested in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTQ2NTg0MSw0OTk0OTg1NDYsLTIwNz
+eyJoaXN0b3J5IjpbMTQ4MTk1NDU5Niw0OTk0OTg1NDYsLTIwNz
 AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
