@@ -144,6 +144,7 @@ First, let's give the special case of $\frac{a}{b}=1$.
 > By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 But we can simplify further, and take $z = 1$.
+This leaves us with a familiar infinite series.
 
 
 > <font color="black"> ***Corollary 2***
@@ -219,11 +220,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxOTUwNDY3LC0xODk4ODYxOTA3LC0xOT
-Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
-MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
-YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
-MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
-A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
-ODY2MV19
+eyJoaXN0b3J5IjpbLTE4OTI5NjIwMDYsLTE4OTg4NjE5MDcsLT
+E5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4
+NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNz
+YyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4
+MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNi
+wyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1
+MDc4NjYxXX0=
 -->
