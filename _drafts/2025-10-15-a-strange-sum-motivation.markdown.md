@@ -232,7 +232,7 @@ We can see from  <font color="purple"> ***Corollary 3***<font color="black"> tha
 
 But $z$ can be any other complex number whatsoever, and the right hand side will converge to 1!
 
-We now
+And since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original "strange sum," we now know the answer to our original perplexing question: 
 
 
 
@@ -311,11 +311,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA2NTMyMTgsMTAzMDY2MDg1NCw1OT
-I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
-NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
-g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
-ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
-Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
-MDE2NTFdfQ==
+eyJoaXN0b3J5IjpbLTQ0MTQwMjYwMSwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
