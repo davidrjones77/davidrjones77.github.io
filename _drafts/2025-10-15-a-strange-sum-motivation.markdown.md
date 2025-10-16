@@ -91,7 +91,7 @@ Letting $n=1,$ we have by ***Theorem 1***
 <font color="blue">*Inductive step:*</font>
  Assume $P(n)$ is true for some fixed, arbitrary $n.$
 
-Then by the <font color="red">inductive hypothesis</font> and <font color="blue">***Theorem 1***</font>, 
+Then by <font color="blue">***Theorem 1***</font> and the <font color="red">inductive hypothesis</font>, 
  $$\begin{align*}
  && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
@@ -110,7 +110,7 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMwOTQ5NjksLTM3MjQ5NjEwMywtNT
+eyJoaXN0b3J5IjpbLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNT
 A5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3
 ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMj
 A3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
