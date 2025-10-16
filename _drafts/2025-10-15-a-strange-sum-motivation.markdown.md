@@ -94,7 +94,7 @@ Letting $n=1,$ we have by ***Theorem 1***
 Then by the <font color="red">inductive hypothesis</font> and <font color="blue">***Theorem 1***</font>, 
  $$\begin{align*}
  && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\
- \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
+ \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}} \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\ 
   \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
   \rightarrow && &P(n+1)
@@ -110,8 +110,8 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0NTIyNTQzLC0zNzI0OTYxMDMsLTUwOT
-gwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1
-Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNz
-AxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbLTE4ODMwOTQ5NjksLTM3MjQ5NjEwMywtNT
+A5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3
+ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMj
+A3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 -->
