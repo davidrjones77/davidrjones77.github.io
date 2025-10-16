@@ -11,10 +11,6 @@ Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
-This article assumes no pre-requisites apart from a basic familiarity with common mathematical notation, algebra, logic, proofs (including proof by induction), and some previous acquaintance with limits and complex numbers.
-
-The most important pre-requisite 
-
 ## Motivation
 Let's call the above expression $\sum^\infty_\Omega$.
 
@@ -320,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDE2NTYwNSwtNzM4MDczNzA2LDEwMz
-A2NjA4NTQsNTkyNDM1NzE1LDE0OTk0OTM3MjAsMTEyMzI5NzEw
-NywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNj
-c1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3
-MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMT
-MxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5
-NjEwM119
+eyJoaXN0b3J5IjpbNjU4NTQ0MTkwLC03MzgwNzM3MDYsMTAzMD
+Y2MDg1NCw1OTI0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3
+LDExODYyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2Nz
+UxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcx
+LC03ODczODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMz
+E4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2
+MTAzXX0=
 -->
