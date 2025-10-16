@@ -121,9 +121,7 @@ Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$.
 Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 
 ***Proof***
-By ***Theorem 2*** we have $$\frac{a}{b} - \frac{a}{b+n} = \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$ where $n \in \N_{\geq1}.$
-
-Thus 
+By the definition of infinite series and limits, and by ***Theorem 2***, we have
  $$\begin{align*}
   \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
   &=\lim_{n \to \infty}\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
@@ -133,9 +131,9 @@ Thus
 But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
-M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
-NjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLD
-c2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEw
-NSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMz
+E4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2
+MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLT
+EzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4
+NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
 -->
