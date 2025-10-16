@@ -15,7 +15,7 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 Where does this expression come from?
 I was initially interested in a much simpler question.
 
-> ***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+> <font color="black"> ***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -137,13 +137,13 @@ Although the theorem restricts $b$ from being a non-positive integer, this is no
 It's natural to look for simplifying special cases of ***Theorem 3***. 
 First, let's give the special case of $\frac{a}{b}=1$.
 
->  <font color="black"> ***Corollary 1***
->   Let $z \in \mathbb{C}$, where $z \notin
+>  <font color="purple"> ***Corollary 1***
+>   <font color="black"> Let $z \in \mathbb{C}$, where $z \notin
 > \Z_{\leq0}$. 
 > <font color="black"> 
 > Then $$\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}=1$$
-> <font color="black">  ***Proof***
-> By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+> <font color="purple">  ***Proof***
+>  <font color="black">By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 <br>But we can simplify further, and take $z = 1$.
 This leaves us with a rather satisfying infinite series, which you may have seen before.
@@ -152,12 +152,12 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 
 
 
-> <font color="black"> ***Corollary 2***
-> $$\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}=\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\dots=1$$
+> <font color="purple"> ***Corollary 2***
+>  <font color="black"> $$\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}=\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\dots=1$$
 > 
 > 
-> <font color="black"> ***Proof***
-> By ***Corollary 1*** we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
+> <font color="purple"> ***Proof***
+>  <font color="black">By ***Corollary 1*** we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
 ## From Infinity...to Beyond?
@@ -174,8 +174,8 @@ Intuitively, it seems there shouldn't be a reason why the recursive form of ***C
 
 Handling the recursive aspect of our new expression will require some subtlety.
 
->  <font color="black"> ***Corollary 3***
-> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
+>  <font color="purple"> ***Corollary 3***
+> <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
 > 
 >  <font color="black"> Then $$\LARGE 1=\sum^{\infty}_{a=0}
 > \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
@@ -183,8 +183,8 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$
 > 
 > 
->  <font color="black"> ***Proof***
-> For a fixed, arbitrary $n \in \N,$ we make the following definitions.
+>  <font color="purple"> ***Proof***
+>  <font color="black">For a fixed, arbitrary $n \in \N,$ we make the following definitions.
 > Define $f_n()=1.$
 > Define $f_{i}()=\sum^{\infty}_{k=0}
 > \frac{z}{(z+k)(z+k+f_{i+1}())},$ where $i \in \N, i \lt n.$
@@ -304,7 +304,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNzQ0OTI2LDE0OTk0OTM3MjAsMTEyMz
+eyJoaXN0b3J5IjpbNDEyNjYxMzQyLDE0OTk0OTM3MjAsMTEyMz
 I5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1Njky
 NjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
 Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
