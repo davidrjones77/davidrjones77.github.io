@@ -86,12 +86,12 @@ Again, we must restrict $b$ to prevent division by zero.
 >  
 >  <font color="blue">*Inductive step:*</font>  <font color="black"> Assume $P(n)$ is true for some fixed, arbitrary $n.$
 > <font color="black">  
-> Then by <font color="darkorange">***Theorem 1***</font> and the <font
+> Then by <font color="purple">***Theorem 1***</font> and the <font
 > color="red">inductive hypothesis</font>,   $$\begin{align*}  &&
 > \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\  \rightarrow &&
 > \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0}
-> \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{darkorange}{\frac{a}{b+n}-
+> \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{purple}{\frac{a}{b+n}-
 > \frac{a}{b+n+1}} \\ \\  \rightarrow && \sum^{n}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}}
 > \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\    \rightarrow &&
@@ -117,11 +117,11 @@ We'll need to use two facts about complex limits, which are proved in the **Appe
 > Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 > 
 > <font color="purple"> ***Proof*** 
->  <font color="black">By the definition of infinite series and limits, and by ***Theorem 2***, we have  $$\begin{align*}   \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0}
+>  <font color="black">By the definition of infinite series and limits, and by  <font color="purple">***Theorem 2***,  <font color="black"> we have  $$\begin{align*}   \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} \\ \\   &=\lim_{n \to \infty}\sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} \\ \\  &=\lim_{n \to \infty}\left[\frac{a}{b} -
-> \frac{a}{b+n} \right] \\ \\   \end{align*}$$ <font color="black">  But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty}
-> \left|\frac{a}{b+n}\right|=0$$ and by ***Lemma A.3 (see Appendix)***
+> \frac{a}{b+n} \right] \\ \\   \end{align*}$$ <font color="black">  But by  <font color="purple">***Lemma A.2 (see Appendix)***  <font color="black">$$\lim_{n \to \infty}
+> \left|\frac{a}{b+n}\right|=0$$ and by  <font color="purple">***Lemma A.3 (see Appendix)*** <font color="black">
 > $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to
 > \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to
 > \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus
@@ -134,7 +134,7 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
-It's natural to look for simplifying special cases of ***Theorem 3***. 
+It's natural to look for simplifying special cases of  <font color="p">***Theorem 3***. 
 First, let's give the special case of $\frac{a}{b}=1$.
 
 >  <font color="purple"> ***Corollary 1***
@@ -304,7 +304,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIyNDczNiwxNDk5NDkzNzIwLDExMj
+eyJoaXN0b3J5IjpbLTY3NTI4NTI2NiwxNDk5NDkzNzIwLDExMj
 MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
 MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
 k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
