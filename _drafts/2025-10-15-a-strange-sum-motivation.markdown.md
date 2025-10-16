@@ -173,8 +173,9 @@ By ***Lemma A.1,*** we have $$\begin{align*}
 \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 \ \ \ \blacksquare
 \end{align*}$$
 \
-This proves $\color{blue}(2)$, and then we'll show that $\color{blue}(2)$ implies $\color{blue}(1)$.
-
+This proves $\color{blue}(2)$.
+Let's show that $\color{blue}(2)$ implies $\color{blue}(1)$.
+\
 ***Lemma A.3***
 Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}$
 Then $$\lim_{n \to \infty} \left| z_n \right|=0 \iff \lim_{n \to \infty} z_n =0 $$
@@ -191,11 +192,11 @@ $$\begin{align*}
 && &\iff \lim_{n \to \infty} z_n =0 \\ 
 \end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc5ODAwMDgsLTk5NDc3ODcxMSw1ND
-k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
-MCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC
-0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEy
-NTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MS
-w0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAy
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
+Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
+LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
+M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
+Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
+Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
+MV19
 -->
