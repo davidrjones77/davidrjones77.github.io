@@ -140,7 +140,7 @@ But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}
 
 It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0,$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ suffices.
 
-We're going to need to represent the 
+We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so we derive th
 
 ***Lemma A.1***
 Let $a,b,c,d \in \R$.
@@ -154,7 +154,7 @@ $$\begin{align*}
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$ Now we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4NjA4NjcsLTc4NzM4OTA4MCwtMT
+eyJoaXN0b3J5IjpbLTEzNjMzNTE4ODgsLTc4NzM4OTA4MCwtMT
 Q4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4
 NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MS
 w0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5
