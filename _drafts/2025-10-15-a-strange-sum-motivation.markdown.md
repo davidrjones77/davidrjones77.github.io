@@ -146,7 +146,7 @@ First, let's give the special case of $\frac{a}{b}=1$.
 <br>But we can simplify further, and take $z = 1$.
 This leaves us with a rather satisfying infinite series, which you may have seen before.
 
-Our curiosity rewards us again.<br><br>
+Although we didn't set out looking for this result, it came to us nonetheless.<br><br>
 
 
 
@@ -157,6 +157,9 @@ Our curiosity rewards us again.<br><br>
 > <font color="black"> ***Proof***
 > By ***Corollary 1*** we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
+
+## Next Section
+
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -223,7 +226,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NzYxNzQwLC0xODk4ODYxOTA3LC0xOT
+eyJoaXN0b3J5IjpbMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOT
 Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
 MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
 YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
