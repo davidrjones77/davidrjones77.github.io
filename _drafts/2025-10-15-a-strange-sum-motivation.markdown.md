@@ -132,14 +132,12 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
-
- ***Corollary 1***
-Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
-
-Then $$1=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
-
-***Proof***
-By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+>  <font color="black"> ***Corollary 1***
+>   Let $z \in \mathbb{C}$, where $z \notin
+> \Z_{\leq0}$. 
+> <font color="black"> 
+> Then $$1=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+> <font color="black">  ***Proof*** By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -206,7 +204,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDk1MTA2MSwtMTg5ODg2MTkwNywtMT
+eyJoaXN0b3J5IjpbLTM1OTYzODM4MywtMTg5ODg2MTkwNywtMT
 k2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3
 MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2OCw3Nj
 I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
