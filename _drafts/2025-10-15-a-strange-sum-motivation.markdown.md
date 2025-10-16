@@ -4,7 +4,7 @@ title:  "A Strange Sum - Motivation"
 date:   2025-10-15 20:09:15 -0400
 categories: infinite_series
 ---
-# A Strange Sum - Motivation
+# A Strange Sum - Origins
 ## Recap
 In the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
@@ -12,9 +12,10 @@ If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
 ## Motivation
-Let's call this expression $\sum^\infty_\Omega$.
+Let's call the above expression $\sum^\infty_\Omega$.
 
 Where did $\sum^\infty_\Omega$ come from?
+Is there any motivation for this?
 
 I was initially interested in a much simpler question.
 
@@ -316,11 +317,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjM4OTcyNSwxMDMwNjYwODU0LDU5Mj
-QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
-LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
-YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
-MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
-YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
-MTY1MV19
+eyJoaXN0b3J5IjpbLTE0MzAwMjIzMTgsMTAzMDY2MDg1NCw1OT
+I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
+NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
+g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
+ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
+Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
+MDE2NTFdfQ==
 -->
