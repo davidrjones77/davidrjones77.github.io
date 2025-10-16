@@ -133,7 +133,10 @@ and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\
 
 ## Taking a Breather
 Where does this bring us?
-***Theorem 3*** tells us 
+
+***Theorem 3*** tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
+We only need ensure that $b \ne$
+
 
  ***Corollary 1***
 Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
@@ -208,11 +211,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDcwNDcyNDAsNjc1MTU5NjgsLTg4Nj
-I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
-LC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
-M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
-NjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLD
-c2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEw
-NV19
+eyJoaXN0b3J5IjpbMzAwMzQ4MjksNjc1MTU5NjgsLTg4NjI2ND
+MwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0x
+NDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NT
+g1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUx
+LDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mz
+kyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNV19
+
 -->
