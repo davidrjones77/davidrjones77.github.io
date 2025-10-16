@@ -227,8 +227,8 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
-## A Strange Solve
-
+## Conclusion
+<font color="purple"> ***Corollary 3***
 
 
 ## Appendix
@@ -305,11 +305,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDY2MDg1NCw1OTI0MzU3MTUsMTQ5OT
-Q5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0NCwtMTg5ODg2MTkw
-NywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OT
-Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
-OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2XX0=
+eyJoaXN0b3J5IjpbLTUxODA1MzMzMiwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
