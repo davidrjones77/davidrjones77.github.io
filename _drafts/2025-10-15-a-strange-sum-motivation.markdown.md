@@ -104,12 +104,13 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 
 ## Taking a Limit
 
-But 
+But why stop at $n$ terms?
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEyOTQyNjIsLTEzNjE4MjcwMDEsLT
-M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
-Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
-Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
-MV19
+eyJoaXN0b3J5IjpbLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMz
+cyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3
+ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsND
+k5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjEx
+XX0=
 -->
