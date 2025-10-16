@@ -246,9 +246,11 @@ When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\fr
 
 But for the proof of <font color="purple">***Theorem 3***</font>, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ \ \color{blue}(2)$$ but, as we will demonstrate, showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0 \ \ \ \ \color{blue}(3)$$ suffices.
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ \ \color{blue}(2)$$ but, as we will demonstrate, showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0 \ \ \ \ \color{blue}(3)$$ suffices as well.
 
 To get started, we're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's begin there.
+
+This is one of the first 
 
 ><font color="purple"> ***Lemma A.1*** 
 >  <font color="black">Let $a,b,c,d \in \R$.
@@ -314,7 +316,7 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzE0OTExOCwxMDMwNjYwODU0LDU5Mj
+eyJoaXN0b3J5IjpbMTU0MDc1ODU4NiwxMDMwNjYwODU0LDU5Mj
 QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
 LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
 YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
