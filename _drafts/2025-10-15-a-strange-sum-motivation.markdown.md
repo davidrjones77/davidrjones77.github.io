@@ -34,8 +34,8 @@ We have   $$\begin{align*}
 
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
-> ***Conjecture 1*** Let $n \in \mathbb{N}_{\geq 1}$. 
-> 
+><font color="black">  ***Conjecture 1*** Let $n \in \mathbb{N}_{\geq 1}$. 
+> <font color="black"> 
 > Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 > ***Proof***   $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
 > \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
@@ -48,8 +48,8 @@ And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, we should be able to generalize our result (taking care to restrict $b$ to prevent division by zero).
 Let's do that.
 
-> ***Theorem 1*** Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
-> 
+> <font color="black"> ***Theorem 1*** Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
+> <font color="black"> 
 > Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 > 
 > ***Proof***   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
@@ -205,11 +205,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNj
-c1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3
-MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMT
-MxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5
-NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC
-0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5
-ODU0Nl19
+eyJoaXN0b3J5IjpbMTcyODMxNzQ5NywtMTg5ODg2MTkwNywtMT
+k2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3
+MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2OCw3Nj
+I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
+NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
+IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
+Nzg2NjFdfQ==
 -->
