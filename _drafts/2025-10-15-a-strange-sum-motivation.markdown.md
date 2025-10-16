@@ -128,13 +128,16 @@ By the definition of infinite series and limits, and by ***Theorem 2***, we have
  &=\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right] \\ \\
   \end{align*}$$
 
-But by ***Lemma A.2*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
-and by ***Lemma A.3*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
+But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
+and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
+
+## Appendix
+This app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5NTgzNzU5LC0xNDgyMTk4NjgsNzYyNj
-A1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4Mjcw
-MDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMD
-czMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4
-NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMj
-gzMDIxMV19
+eyJoaXN0b3J5IjpbLTQ5NzIyMTEwNywtMTQ4MjE5ODY4LDc2Mj
+YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
+MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
+A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
+ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0Mj
+I4MzAyMTFdfQ==
 -->
