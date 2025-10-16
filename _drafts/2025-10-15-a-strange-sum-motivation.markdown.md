@@ -172,30 +172,34 @@ Intuitively, it seems there shouldn't be a reason why the recursive form of ***C
 
 Handling the recursive aspect of our new expression will require some subtlety.
 
-> ***Lemma 1.3.14***
+>  <font color="black"> ***Lemma 1.3.14***
 > Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
 > 
-> Then $$\LARGE 1=\sum^{\infty}_{a=0}
+>  <font color="black"> Then $$\LARGE 1=\sum^{\infty}_{a=0}
 > \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
 > \frac{z}{(z+b)\left(z+b+\sum^{\infty}_{c=0}
 > \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$
 > 
 > 
-> ***Proof***
-> For a fixed, arbitrary $n \in \N,$ we make the following definitions. Define $f_n()=1.$ Define $f_{i}()=\sum^{\infty}_{k=0}
-> \frac{z}{(z+k)(z+k+f_{i+1}())},$ where $i \in \N, i \lt n.$ Define
-> $f_\infty() =\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
-> \\ \mathllap{n} \to \mathrlap{\infty}}} f_i().$ \ To prove the
-> theorem, it suffices to show $f_\infty()=1.$
+>  <font color="black"> ***Proof***
+> For a fixed, arbitrary $n \in \N,$ we make the following definitions.
+> Define $f_n()=1.$
+> Define $f_{i}()=\sum^{\infty}_{k=0}
+> \frac{z}{(z+k)(z+k+f_{i+1}())},$ where $i \in \N, i \lt n.$
+> Define $f_\infty() =\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
+> \\ \mathllap{n} \to \mathrlap{\infty}}} f_i().$
+>
+> <font color="black"> To prove the theorem, it suffices to show $f_\infty()=1.$
 > 
-> We first prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$
+>  <font color="black"> We first prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$
 > 
-> We give a proof by induction. 
+>  <font color="black"> We give a proof by induction. 
 > 
-> Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$
+> <font color="black">  Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$
 > 
 > \
-> *Base case:* $P(1)$ is vacuously true.
+>  <font color="blue"> *Base case:*
+>  $P(1)$ is vacuously true.
 > 
 >  \
 > *Inductive step:*  Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$    Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$  
@@ -287,7 +291,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIyMTUxNzAsMTEyMzI5NzEwNywxMT
+eyJoaXN0b3J5IjpbLTIxMjE4ODM4MjEsMTEyMzI5NzEwNywxMT
 g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
 NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
 g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
