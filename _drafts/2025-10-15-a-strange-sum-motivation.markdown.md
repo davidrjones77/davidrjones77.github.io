@@ -106,13 +106,15 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 
 But why stop at $n$ terms?
 If we can expand our sum to *arbitrarily* (i.e. *fintely*) many terms, surely we can expand to *infinitely* many terms.
-With fractions having **real** numerators and denominators, this would be straightforward.
-But we'd rather not lose generality - we'd like to expand to 
 
+With fractions having real numerators and denominators, this would be straightforward.
+But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the general domain of complex numbers.
+
+At the end of this article, I've provided an 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjA2ODI1NywtNjYzODU4NTczLC0xMz
-YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
-MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
-c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
-LDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNjIzMzY3Njk5LC02NjM4NTg1NzMsLTEzNj
+E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
+NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
+Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEs
+MTQyMjgzMDIxMV19
 -->
