@@ -139,12 +139,13 @@ First, let's give the special case of $\frac{a}{b}=1$.
 >   Let $z \in \mathbb{C}$, where $z \notin
 > \Z_{\leq0}$. 
 > <font color="black"> 
-> Then $$1=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+> Then $$\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}=1$$
 > <font color="black">  ***Proof***
 > By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
-But we can simplify further, and take $z = 1$.
-This leaves us with a familiar infinite series.
+<br>But we can simplify further, and take $z = 1$.
+This leaves us with a rather satisfying infinite series, which you may have seen before.<br><br>
+
 
 
 > <font color="black"> ***Corollary 2***
@@ -220,7 +221,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI5NjIwMDYsLTE4OTg4NjE5MDcsLT
+eyJoaXN0b3J5IjpbLTExNjEwNzYwMTMsLTE4OTg4NjE5MDcsLT
 E5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4
 NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNz
 YyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4
