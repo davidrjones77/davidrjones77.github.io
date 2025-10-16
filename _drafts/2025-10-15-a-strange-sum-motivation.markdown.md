@@ -106,9 +106,10 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 
 But why stop at $n$ terms?
 If we can expand our sum to arbitrarily many terms, surely we can expand to infinitely many terms.
+With fractions having real numerators and denominators, this should be straightforward.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ5MjUyNDEsLTY2Mzg1ODU3MywtMT
+eyJoaXN0b3J5IjpbLTExNTU3ODMwMTgsLTY2Mzg1ODU3MywtMT
 M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
 OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
 E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
