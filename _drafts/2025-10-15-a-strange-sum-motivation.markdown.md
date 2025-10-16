@@ -138,9 +138,9 @@ When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\fr
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0,$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ suffices.
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ (1),$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ suffices.
 
-We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so we derive that formula first.
+We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
 
 ***Lemma A.1***
 Let $a,b,c,d \in \R$.
@@ -153,11 +153,29 @@ $$\begin{align*}
 &&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$ Now we can 
+
+***Lemma A.2***
+Let $a,b,c,d \in \R$  and let $n \in \N.$
+Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
+
+***Proof***
+Let $c' = c+n.$
+By ***Lemma 1.3.6,*** we have $$\begin{align*} 
+&& \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} + \frac{bc'-ad}{c'^2+d^2}i \\ \\
+&& \rightarrow \left| \frac{a+bi}{c+di+n} \right|  &= \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 + \left(\frac{bc'-ad}{c'^2+d^2}\right)^2} \\ \\
+&& &=  \sqrt{\frac{ a^2c'^2+2abdc'+b^2d^2}{\left(c'^2+d^2\right)^2} + \frac{b^2c'^2-2abdc'+a^2d^2}{\left(c'^2+d^2\right)^2}} \\ \\
+&& &=  \sqrt{\frac{\left(a^2+b^2\right)c'^2+\left(a^2+b^2\right)d^2}{\left(c'^2+d^2\right)^2}} \\ \\
+&& &=  \sqrt{\frac{\left(a^2+b^2\right)\left(c'^2+d^2\right)}{\left(c'^2+d^2\right)^2}}  \\ \\
+&& &=  \sqrt{\frac{a^2+b^2}{c'^2+d^2}}   \\ \\
+&& &=  \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} \\ \\
+&& \lim_{n \to \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}&=0 \\ \\
+\rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 
+\end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM2OTc4MjUsLTc4NzM4OTA4MCwtMT
-Q4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4
-NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MS
-w0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5
-MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOT
-YzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbOTA3NjgzMDk4LC03ODczODkwODAsLTE0OD
+IxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3
+MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsND
+Q4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIy
+NTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mz
+k3MDY4MSwxNDIyODMwMjExXX0=
 -->
