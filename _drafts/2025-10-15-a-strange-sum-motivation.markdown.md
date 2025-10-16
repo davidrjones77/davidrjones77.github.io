@@ -138,9 +138,9 @@ When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\fr
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0,$$ and (as we will demonstrate) show $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ will be sufficient.
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0,$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ suffices.
 
-To get going, we'll remind ourselves of the formula for divison of complex numbers, and give the derivation.
+To get going, we'll remind ourselves of the formula for division of complex numbers, and give the derivation.
 
 ***Lemma A.1***
 Let $a,b,c,d \in \R$.
@@ -154,7 +154,7 @@ $$\begin{align*}
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$ Now we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc0OTM0NCwtNzg3Mzg5MDgwLC0xND
+eyJoaXN0b3J5IjpbLTQ1ODIyMzM5MiwtNzg3Mzg5MDgwLC0xND
 gyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1
 NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLD
 Q0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mzky
