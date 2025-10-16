@@ -46,7 +46,7 @@ It would seem at this point we can conjecture an answer to our  <font color="pur
 > <font color="black">  $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
 > \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
 
-So we have an answer to our  <font color="purple"> ***Simple Question*** </font>-  <font color="black">*the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
+So we have an answer to our  <font color="purple"> ***Simple Question*** </font>- *the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
 Moreover, we now know a formula for that sum - our curiosity has rewarded us with information we weren't initially looking for.
 
 But hang on - is there anything special about the 1 in the numerator?
@@ -64,10 +64,10 @@ Let's do that.
 
 ## Expanding Terms
 But why stop at two terms?
-After all, the terms on the right hand side of  <font color="purple">***Theorem 1***  <font color="black">are just fractions having complex numbers as numerator and denominator, and so may be expanded according to  <font color="purple">***Theorem 1***.
- <font color="black">We should be able to expand terms on the right hand side of  <font color="purple">***Theorem 1***  <font color="black">as many times as we like, and we know the form such terms should take.
+After all, the terms on the right hand side of  <font color="purple">***Theorem 1***  </font>are just fractions having complex numbers as numerator and denominator, and so may be expanded according to  <font color="purple">***Theorem 1***.
+ </font>We should be able to expand terms on the right hand side of  <font color="purple">***Theorem 1***  </font>as many times as we like, and we know the form such terms should take.
 
-Let's generalize  <font color="purple">***Theorem 1*** <font color="black"> to a sum of $n$ terms, where $n$ is a whole number.
+Let's generalize  <font color="purple">***Theorem 1*** </font> to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
 We use the notation $\N_{0\leq n}$ to indicate the set of  non negative integers from $0$ to $n$, for some $n \in \N$.
@@ -140,7 +140,7 @@ Where does this leave us?
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
 It's natural to look for simplifying special cases of  <font color="purple">***Theorem 3***. 
- <font color="black">First, let's give the special case of $\frac{a}{b}=1$.
+ </font>First, let's give the special case of $\frac{a}{b}=1$.
 
 >  <font color="purple"> ***Corollary 1***
 >   <font color="black"> Let $z \in \mathbb{C}$, where $z \notin
@@ -166,7 +166,7 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
 ## From Infinity...to Beyond?
-Consider the expression in  <font color="purple">***Corollary 1***  <font color="black">again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+Consider the expression in  <font color="purple">***Corollary 1***  </font>again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 Conventionally, this equality tells us that the infinite series on the right hand side converges to 1.
 
@@ -316,7 +316,7 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQxNzU1NzcsMTAzMDY2MDg1NCw1OT
+eyJoaXN0b3J5IjpbLTExODQ0ODA3MjUsMTAzMDY2MDg1NCw1OT
 I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
 NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
 g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
