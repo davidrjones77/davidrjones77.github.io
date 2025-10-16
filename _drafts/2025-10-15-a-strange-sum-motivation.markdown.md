@@ -64,8 +64,9 @@ Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
 But why stop at two terms?
 After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
+
 Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
-Notice now that $b$ can't b
+Again, we can't allow division by zero, so $b$ can't be zero, but neither can it be $-n$, nor can it be $-i$ for any of the $i$ values in the summation.
 
  ***Theorem 2***
 Let $n \in \N_{\geq1}.$
@@ -132,9 +133,9 @@ Thus
 But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY2MTYzLC02NjM4NTg1NzMsLTEzNj
-E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
-NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
-Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEs
-MTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbLTE0NTk1MTE4MjgsLTY2Mzg1ODU3MywtMT
+M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
+OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
+E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
+MSwxNDIyODMwMjExXX0=
 -->
