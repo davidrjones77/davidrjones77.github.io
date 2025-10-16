@@ -97,6 +97,7 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}} \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\ 
   \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+  \rightarrow && &P(n+1)
  \end{align*}$$
 
  Thus $P(n)$ is true for all $n \geq 1$.
@@ -109,8 +110,8 @@ Then by the <font color="red">inductive hypothesis</font> and <font color="blue"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3Mz
-EyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2
-MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0MjI4Mz
-AyMTFdfQ==
+eyJoaXN0b3J5IjpbLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0OD
+QyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUz
+NCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5Nz
+A2ODEsMTQyMjgzMDIxMV19
 -->
