@@ -135,7 +135,7 @@ and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\
 Where does this bring us?
 
 ***Theorem 3*** tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
-We only need ensure that $b \ne$
+Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction  
 
 
  ***Corollary 1***
@@ -211,11 +211,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMzQ4MjksNjc1MTU5NjgsLTg4NjI2ND
-MwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0x
-NDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NT
-g1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUx
-LDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mz
-kyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNV19
-
+eyJoaXN0b3J5IjpbMTk0NTUwNjMyOSw2NzUxNTk2OCwtODg2Mj
+Y0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAs
+LTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mz
+g1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2
+NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNz
+YzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1
+XX0=
 -->
