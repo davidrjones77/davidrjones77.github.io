@@ -19,7 +19,7 @@ Is there any motivation for this?
 
 I was initially interested in a much simpler question.
 
-> <font color="purple"> ***Simple Question:***  <font color="black">*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+> <font color="purple"> ***Simple Question:*** </font>  <font color="black">*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -46,7 +46,7 @@ It would seem at this point we can conjecture an answer to our  <font color="pur
 > <font color="black">  $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
 > \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
 
-So we have an answer to our  <font color="purple"> ***Simple Question*** -  <font color="black">*the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
+So we have an answer to our  <font color="purple"> ***Simple Question*** </font>-  <font color="black">*the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
 Moreover, we now know a formula for that sum - our curiosity has rewarded us with information we weren't initially looking for.
 
 But hang on - is there anything special about the 1 in the numerator?
@@ -316,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTY5NzUxNSwxMDMwNjYwODU0LDU5Mj
-QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
-LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
-YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
-MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
-YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
-MTY1MV19
+eyJoaXN0b3J5IjpbLTEzOTQxNzU1NzcsMTAzMDY2MDg1NCw1OT
+I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
+NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
+g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
+ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
+Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
+MDE2NTFdfQ==
 -->
