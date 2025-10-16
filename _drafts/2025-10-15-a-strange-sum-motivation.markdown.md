@@ -145,7 +145,8 @@ First, let's give the special case of $\frac{a}{b}=1$.
 
 <br>But we can simplify further, and take $z = 1$.
 This leaves us with a rather satisfying infinite series, which you may have seen before.
-Although we didn'<br><br>
+
+We didn't set out looking to determine whether this infinite series converges, and what it converges to, the result came to <br><br>
 
 
 
@@ -222,11 +223,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5NjEyNTMsLTE4OTg4NjE5MDcsLT
-E5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4
-NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNz
-YyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4
-MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNi
-wyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1
-MDc4NjYxXX0=
+eyJoaXN0b3J5IjpbMTQ0MzQ4NjExNiwtMTg5ODg2MTkwNywtMT
+k2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3
+MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2OCw3Nj
+I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
+NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
+IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
+Nzg2NjFdfQ==
 -->
