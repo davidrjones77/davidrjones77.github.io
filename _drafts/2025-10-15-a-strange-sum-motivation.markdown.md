@@ -108,11 +108,13 @@ But why stop at $n$ terms?
 If we can expand our sum to *arbitrarily* (i.e. *fintely*) many terms, surely we can expand to *infinitely* many terms.
 
 With fractions having real numerators and denominators, this would be straightforward.
-But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the general domain of complex numbers.
+But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the more general domain of complex numbers.
 
-At the end of this article, I've provided an 
+At the end of this article, I've provided an Appendix providing 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMzY3Njk5LC02NjM4NTg1NzMsLTEzNj
+eyJoaXN0b3J5IjpbNDA5ODQ2NDk5LC02NjM4NTg1NzMsLTEzNj
 E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
 NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
 Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEs
