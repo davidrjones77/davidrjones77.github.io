@@ -132,10 +132,11 @@ But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\
 and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)} \ \ \ \blacksquare$$
 
 ## Taking a Breather
-Where does this bring us?
+Where does this leave us?
 
-***Theorem 3*** tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
-Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction  
+***Theorem 3*** tells us that the ratio of any 2 complex numbers can be expressed as an infinite series and gives us the form of that infinite series.
+
+Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
 
  ***Corollary 1***
@@ -211,11 +212,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTUwNjMyOSw2NzUxNTk2OCwtODg2Mj
-Y0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAs
-LTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mz
-g1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2
-NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNz
-YzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1
-XX0=
+eyJoaXN0b3J5IjpbLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4Nj
+I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
+LC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
+M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
+NjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLD
+c2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEw
+NV19
 -->
