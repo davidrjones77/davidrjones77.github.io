@@ -173,7 +173,8 @@ It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(
 We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
 
 ><font color="black"> ***Lemma A.1*** 
-> Let $a,b,c,d \in \R$. Then $$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
+> Let $a,b,c,d \in \R$.
+> Then $$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
 > ***Proof*** $$\begin{align*}  &&\left(\frac{a+bi}{c+di}\right)\left(\frac{c-di}{c-di}\right) &=
 > \frac{ac+bci-adi+bd}{c^2+d^2}  \\ \\ &&  &=
 > \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\ &&  &= \frac{ac+bd}{c^2+d^2} +
@@ -183,7 +184,8 @@ We're going to need to represent a ratio of complex numbers as the sum of ratios
 Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
 > <font color="black">***Lemma A.2*** 
-> Let $a,b,c,d \in \R$  and let $n \in \N.$ Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
+> Let $a,b,c,d \in \R$  and let $n \in \N.$
+> Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
 > 
 > <font color="black">***Proof*** 
 > Let $c' = c+n.$ By ***Lemma A.1,*** we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
@@ -226,11 +228,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg1MTA5NzMsMTEyMzI5NzEwNywxMT
-g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
-NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
-g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
-NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
-wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
-NDU3ODUyXX0=
+eyJoaXN0b3J5IjpbLTE5MzYyODMzMywxMTIzMjk3MTA3LDExOD
+YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
+OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
+czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
+OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
+01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
+NTc4NTJdfQ==
 -->
