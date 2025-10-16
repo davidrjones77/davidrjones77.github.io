@@ -191,13 +191,16 @@ $$\begin{align*}
 && &\iff \lim_{n \to \infty} z_n =0 \\ 
 \end{align*}$$
 
-Thus  $\color{blue}(2)$ implies $\color{blue}(1)$.
+Thus  $\color{blue}(3)$ implies $\color{blue}(2)$.
+But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffices to show $\color{blue}(1)$, which was the goal we were trying to accomplish.
+
+Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MTg4MDI2LC04ODYyNjQzMDgsLTk5ND
-c3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4
-LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMz
-YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
-MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
-c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
-XX0=
+eyJoaXN0b3J5IjpbLTQ4ODUwMDM3MSwtODg2MjY0MzA4LC05OT
+Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
+OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
+M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
+OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
+E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
+MV19
 -->
