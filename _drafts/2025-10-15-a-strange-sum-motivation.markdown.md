@@ -199,19 +199,25 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > 
 > \
 >  <font color="blue"> *Base case:*
->  $P(1)$ is vacuously true.
+>  <font color="black">  $P(1)$ is vacuously true.
 > 
 >  \
-> *Inductive step:*  Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$    Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$  
-> But by our definitions and ***Lemma 1.3.12,*** we have $$f_{n-1}() =
+>  <font color="blue">*Inductive step:* 
+>  <font color="black"> Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$   
+>
+> <font color="black">Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$  
+> 
+> <font color="black"> But by our definitions and ***Corollary 1,*** we have $$f_{n-1}() =
 > \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
 > \frac{z}{(z+k)(z+k+1)}= 1$$
 > 
-> This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
+>  <font color="black">This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
 > 1.$
 > 
->  Thus $P(n)$ is true for all $n \geq 1$.    That is, $f_i()=1$ for all
-> $i$ such that $i \lt n,$ for all $n.$   To conclude the proof, we have
+>   <font color="black">Thus $P(n)$ is true for all $n \geq 1$.    
+>
+> <font color="black">That is, $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$ 
+>   To conclude the proof, we have
 > $$f_\infty()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
 > \\ \mathllap{n} \to \mathrlap{\infty}}}
 > f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
@@ -291,11 +297,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE4ODM4MjEsMTEyMzI5NzEwNywxMT
-g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
-NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
-g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
-NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
-wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
-NDU3ODUyXX0=
+eyJoaXN0b3J5IjpbLTMxNDY1MDg4MywxMTIzMjk3MTA3LDExOD
+YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
+OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
+czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
+OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
+01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
+NTc4NTJdfQ==
 -->
