@@ -172,7 +172,7 @@ Intuitively, it seems there shouldn't be a reason why the recursive form of ***C
 
 Handling the recursive aspect of our new expression will require some subtlety.
 
->  <font color="black"> ***Lemma 1.3.14***
+>  <font color="black"> ***Corollary 3***
 > Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
 > 
 >  <font color="black"> Then $$\LARGE 1=\sum^{\infty}_{a=0}
@@ -217,11 +217,16 @@ Handling the recursive aspect of our new expression will require some subtlety.
 >   <font color="black">Thus $P(n)$ is true for all $n \geq 1$.    
 >
 > <font color="black">That is, $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$ 
->   To conclude the proof, we have
+> 
+>  <font color="black"> To conclude the proof, we have
 > $$f_\infty()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
 > \\ \mathllap{n} \to \mathrlap{\infty}}}
 > f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
+
+## A Strange Solve
+
+
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -297,7 +302,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDY1MDg4MywxMTIzMjk3MTA3LDExOD
+eyJoaXN0b3J5IjpbMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExOD
 YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
 OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
 czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
