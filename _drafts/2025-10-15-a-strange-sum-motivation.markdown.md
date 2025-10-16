@@ -121,7 +121,7 @@ Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$.
 Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 
 ***Proof***
-By ***Lemma 1.3.10*** we have $$\frac{a}{b} - \frac{a}{b+n} = \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$ where $n \in \N_{\geq1}.$
+By ***Theorem 2*** we have $$\frac{a}{b} - \frac{a}{b+n} = \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$ where $n \in \N_{\geq1}.$
 
 Thus 
  $$\begin{align*}
@@ -133,9 +133,9 @@ Thus
 But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDcyNTAyNywtMjEzMTg2MTc5MCwtNj
-YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
-MTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Mi
-w3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAx
-MDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
+M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
+NjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLD
+c2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEw
+NSw5NjM5NzA2ODEsMTQyMjgzMDIxMV19
 -->
