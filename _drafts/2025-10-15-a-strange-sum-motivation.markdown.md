@@ -132,7 +132,8 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
-It's natural to look for simplifying special cases of ***Theorem 3***.  when $\frac{a}{b}=1$.
+It's natural to look for simplifying special cases of ***Theorem 3***. 
+First, let's give the special case of $\frac{a}{b}=1$.
 
 >  <font color="black"> ***Corollary 1***
 >   Let $z \in \mathbb{C}$, where $z \notin
@@ -142,7 +143,8 @@ It's natural to look for simplifying special cases of ***Theorem 3***.  when $\f
 > <font color="black">  ***Proof***
 > By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
-This is a trivial observation, 
+But we can simplify further, and take $z = 1$.
+
 
 > <font color="black"> ***Corollary 2***
 > $$\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}=\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\dots=1$$
@@ -217,11 +219,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTAyMjE3MCwtMTg5ODg2MTkwNywtMT
-k2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3
-MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2OCw3Nj
-I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
-NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
-IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
-Nzg2NjFdfQ==
+eyJoaXN0b3J5IjpbMzAxOTUwNDY3LC0xODk4ODYxOTA3LC0xOT
+Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
+MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
+YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
+MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
+A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
+ODY2MV19
 -->
