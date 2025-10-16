@@ -138,7 +138,7 @@ When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\fr
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ (1),$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0$$ suffices.
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(1)$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0, \ \ \ \ (2)$$ suffices.
 
 We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
 
@@ -152,7 +152,7 @@ $$\begin{align*}
 &&  &= \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\
 &&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
-\end{align*}$$ Now we can 
+\end{align*}$$ Let's use this to prove $(2)$
 
 ***Lemma A.2***
 Let $a,b,c,d \in \R$  and let $n \in \N.$
@@ -172,10 +172,10 @@ By ***Lemma 1.3.6,*** we have $$\begin{align*}
 \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 
 \end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NjgzMDk4LC03ODczODkwODAsLTE0OD
-IxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3
-MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsND
-Q4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIy
-NTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mz
-k3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbMTQ3MDI0NDIyMiwtNzg3Mzg5MDgwLC0xND
+gyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1
+NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLD
+Q0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mzky
+MjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5Nj
+M5NzA2ODEsMTQyMjgzMDIxMV19
 -->
