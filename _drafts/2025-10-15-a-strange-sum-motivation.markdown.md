@@ -136,7 +136,8 @@ This appendix serves as a side quest in the proof of ***Theorem 3***.
 
 When $a,b\in\R$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}.$$
 
-But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
+But for the proof o
+f ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
 To get going, we'll remind ourselves of the formula for divison of complex numbers, and give the derivation.
 
@@ -152,7 +153,7 @@ $$\begin{align*}
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$ Now we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTY5MDU4OCwtMTQ4MjE5ODY4LDc2Mj
+eyJoaXN0b3J5IjpbLTUzNTE3ODIyMiwtMTQ4MjE5ODY4LDc2Mj
 YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
 MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
 A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
