@@ -207,28 +207,33 @@ Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue
 \
 This proves $\color{blue}(3)$.
 Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
-\
-***Lemma A.3***
-Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}$
-Then $$\lim_{n \to \infty} \left| z_n \right|=0 \iff \lim_{n \to \infty} z_n =0 $$
 
-***Proof***
-Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies |x_{n}-x|<\varepsilon \right)\right)\right)$$
-\
-We have
-$$\begin{align*} 
-&& \lim_{n \to \infty} \left| z_n \right| = 0 &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|\left|z_{n}\right|-0\right|<\varepsilon \right)\right)\right) \\ 
-&& &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|z_n\right|<\varepsilon \right)\right)\right)  \\ 
-&& &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|z_{n}-0\right|<\varepsilon \right)\right)\right)  \\ 
-&& &\iff \lim_{n \to \infty} z_n =0 \\ 
-\end{align*}$$
+
+> <font color="black">***Lemma A.3***
+> Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}.$ 
+> Then $$\lim_{n \to \infty} \left| z_n \right|=0 \iff
+> \lim_{n \to \infty} z_n =0 $$
+> 
+> <font color="black">***Proof***
+> Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in
+> \mathbb {N} \left(n\geq N\implies |x_{n}-x|<\varepsilon
+> \right)\right)\right)$$ \ We have $$\begin{align*}  && \lim_{n \to
+> \infty} \left| z_n \right| = 0 &\iff \forall \varepsilon
+> >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|\left|z_{n}\right|-0\right|<\varepsilon
+> \right)\right)\right) \\  && &\iff \forall \varepsilon >0\left(\exists
+> N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies
+> \left|z_n\right|<\varepsilon \right)\right)\right)  \\  && &\iff
+> \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall
+> n\in \mathbb {N} \left(n\geq N\implies
+> \left|z_{n}-0\right|<\varepsilon \right)\right)\right)  \\  && &\iff
+> \lim_{n \to \infty} z_n =0 \\  \end{align*}$$
 
 Thus  $\color{blue}(3)$ implies $\color{blue}(2)$.
 But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffices to show $\color{blue}(1)$, which was the goal we were trying to accomplish.
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyODMzMywxMTIzMjk3MTA3LDExOD
+eyJoaXN0b3J5IjpbMTAxMTYyMDcwMywxMTIzMjk3MTA3LDExOD
 YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
 OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
 czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
