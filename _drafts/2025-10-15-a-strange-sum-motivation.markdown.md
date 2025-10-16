@@ -170,7 +170,7 @@ So, why stop at an infinite series if you can have an infinitely recursive infin
 
 Intuitively, it seems there shouldn't be a reason why the recursive form of ***Corollary 1*** should not hold, so let's write it out and prove it as a corollary.
 
-Let's write out the recursive form of ***Corollary 1***
+We're going to need to get creative for this proof, as t
 
 
 
@@ -248,11 +248,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3ODQ3MDE3LDExMjMyOTcxMDcsMTE4Nj
-IwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4
-LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
-M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
-MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLT
-UwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1
-Nzg1Ml19
+eyJoaXN0b3J5IjpbMTM3MjIzMDU0NSwxMTIzMjk3MTA3LDExOD
+YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
+OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
+czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
+OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
+01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
+NTc4NTJdfQ==
 -->
