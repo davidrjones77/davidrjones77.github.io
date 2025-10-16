@@ -129,7 +129,7 @@ By the definition of infinite series and limits, and by ***Theorem 2***, we have
   \end{align*}$$
 
 But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
-and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
+and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)} \ \ \ \blacksquare$$
 
 ## Next Section
  ***Lemma 1.3.12***
@@ -205,11 +205,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODYwMTczOCwtODg2MjY0MzA4LC05OT
-Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
-OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MV19
+eyJoaXN0b3J5IjpbNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nz
+c4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4Njgs
+NzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNj
+E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
+NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
+Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODFd
+fQ==
 -->
