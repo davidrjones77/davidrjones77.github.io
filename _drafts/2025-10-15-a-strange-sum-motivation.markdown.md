@@ -150,12 +150,12 @@ $$\begin{align*}
 &&  &= \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\
 &&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
-\end{align*}$$
+\end{align*}$$ Now we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIxMDUwOTIsLTE0ODIxOTg2OCw3Nj
-I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
-NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
-IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
-Nzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxND
-IyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTI1MTY5MDU4OCwtMTQ4MjE5ODY4LDc2Mj
+YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
+MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
+A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
+ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0Mj
+I4MzAyMTFdfQ==
 -->
