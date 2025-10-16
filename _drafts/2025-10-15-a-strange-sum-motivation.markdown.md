@@ -263,12 +263,12 @@ We're going to need to represent a ratio of complex numbers as the sum of ratios
 
 Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
-> <font color="black">***Lemma A.2*** 
-> Let $a,b,c,d \in \R$  and let $n \in \N.$
+> <font color="purple">***Lemma A.2*** 
+>  <font color="black">Let $a,b,c,d \in \R$  and let $n \in \N.$
 > Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
 > 
-> <font color="black">***Proof*** 
-> Let $c' = c+n.$ By ***Lemma A.1,*** we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
+> <font color="purple">***Proof*** 
+>  <font color="black">Let $c' = c+n.$ By ***Lemma A.1,*** we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
 > \frac{bc'-ad}{c'^2+d^2}i \\ \\ && \rightarrow \left|
 > \frac{a+bi}{c+di+n} \right|  &=
 > \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 +
@@ -289,13 +289,13 @@ This proves $\color{blue}(3)$.
 Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
 
-> <font color="black">***Lemma A.3***
-> Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}.$ 
+> <font color="purple">***Lemma A.3***
+>  <font color="black">Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}.$ 
 > Then $$\lim_{n \to \infty} \left| z_n \right|=0 \iff
 > \lim_{n \to \infty} z_n =0 $$
 > 
-> <font color="black">***Proof***
-> Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall
+> <font color="purple">***Proof***
+>  <font color="black">Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall
 > \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in
 > \mathbb {N} \left(n\geq N\implies |x_{n}-x|<\varepsilon
 > \right)\right)\right)$$ 
@@ -311,11 +311,11 @@ Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
 Thus  $\color{blue}(3)$ implies $\color{blue}(2)$.
 
-But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffices to show $\color{blue}(1)$, which was the goal we were trying to accomplish.
+But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices to show $\color{blue}(1)$, which was the goal we were trying to accomplish.
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ5MTAwMiwxMDMwNjYwODU0LDU5Mj
+eyJoaXN0b3J5IjpbMTIyNDI5NzE0NCwxMDMwNjYwODU0LDU5Mj
 QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
 LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
 YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
