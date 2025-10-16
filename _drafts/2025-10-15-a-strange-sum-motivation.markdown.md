@@ -15,7 +15,7 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 Where does this expression come from?
 I was initially interested in a much simpler question.
 
-> <font color="black"> ***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+> <font color="purple"> ***Simple Question:***  <font color="black">*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -32,7 +32,7 @@ We have   $$\begin{align*}
 \end{align*}$$ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$.
 
 
-It would seem at this point we can conjecture an answer to our ***Simple Question.***
+It would seem at this point we can conjecture an answer to our  <font color="purple">***Simple Question.***
 
 ><font color="purple">  ***Conjecture 1***
 ><font color="black">  Let $n \in \mathbb{N}_{\geq 1}$. 
@@ -42,7 +42,7 @@ It would seem at this point we can conjecture an answer to our ***Simple Questio
 > <font color="black">  $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
 > \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
 
-So we have an answer to our ***Simple Question*** - *the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
+So we have an answer to our  <font color="purple"> ***Simple Question*** -  <font color="black">*the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
 Moreover, we now know a formula for that sum - our curiosity has rewarded us with information we weren't initially looking for.
 
 But hang on - is there anything special about the 1 in the numerator?
@@ -60,10 +60,10 @@ Let's do that.
 
 ## Expanding Terms
 But why stop at two terms?
-After all, the terms on the right hand side of ***Theorem 1*** are just fractions having complex numbers as numerator and denominator, and so may be expanded according to ***Theorem 1***.
-We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
+After all, the terms on the right hand side of  <font color="purple">***Theorem 1***  <font color="black">are just fractions having complex numbers as numerator and denominator, and so may be expanded according to  <font color="purple">***Theorem 1***.
+ <font color="black">We should be able to expand terms on the right hand side of  <font color="purple">***Theorem 1***  <font color="black">as many times as we like, and we know the form such terms should take.
 
-Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
+Let's generalize  <font color="purple">***Theorem 1*** <font color="black"> to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
 >  <font color="purple"> ***Theorem 2***
@@ -79,7 +79,7 @@ Again, we must restrict $b$ to prevent division by zero.
 > Let $P(n)$ be the claim $\frac{a}{b} = \frac{a}{b+n} +
 > \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}.$
 > 
-> <font color="blue">*Base case:*</font> <font color="black"> Letting $n=1,$ we have by ***Theorem 1***   $$\begin{align*}  &&\frac{a}{b} &= \frac{a}{b+1} + \frac{a}{b(b+1)} \\ \\  \rightarrow && \frac{a}{b} &= \frac{a}{b+1} +
+> <font color="blue">*Base case:*</font> <font color="black"> Letting $n=1,$ we have by  <font color="purple">***Theorem 1*** <font color="black">   $$\begin{align*}  &&\frac{a}{b} &= \frac{a}{b+1} + \frac{a}{b(b+1)} \\ \\  \rightarrow && \frac{a}{b} &= \frac{a}{b+1} +
 > \sum^0_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\   \rightarrow && \frac{a}{b}
 > &= \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}  
 > \end{align*}$$  <font color="black">   Thus $P(1)$ is true.   
@@ -304,11 +304,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNjYxMzQyLDE0OTk0OTM3MjAsMTEyMz
-I5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1Njky
-NjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
-Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
-LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
-M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
-Nzg2XX0=
+eyJoaXN0b3J5IjpbLTc5MjIyNDczNiwxNDk5NDkzNzIwLDExMj
+MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
+MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
+k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
+MCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC
+0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEy
+NTc4Nl19
 -->
