@@ -172,36 +172,36 @@ It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(
 
 We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
 
-***Lemma A.1***
-Let $a,b,c,d \in \R$.
-Then
-$$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
-***Proof***
-$$\begin{align*} 
-&&\left(\frac{a+bi}{c+di}\right)\left(\frac{c-di}{c-di}\right) &= \frac{ac+bci-adi+bd}{c^2+d^2}  \\ \\
-&&  &= \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\
-&&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
-&& &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
-\end{align*}$$
+><font color="black"> ***Lemma A.1*** 
+> Let $a,b,c,d \in \R$. Then $$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
+> ***Proof*** $$\begin{align*}  &&\left(\frac{a+bi}{c+di}\right)\left(\frac{c-di}{c-di}\right) &=
+> \frac{ac+bci-adi+bd}{c^2+d^2}  \\ \\ &&  &=
+> \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\ &&  &= \frac{ac+bd}{c^2+d^2} +
+> \frac{bci-adi}{c^2+d^2} \\ \\ && &= \frac{ac+bd}{c^2+d^2} +
+> \frac{bc-ad}{c^2+d^2}i  \end{align*}$$
+
 Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
-***Lemma A.2***
-Let $a,b,c,d \in \R$  and let $n \in \N.$
-Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
+> <font color="black">***Lemma A.2*** 
+> Let $a,b,c,d \in \R$  and let $n \in \N.$ Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
+> 
+> <font color="black">***Proof*** 
+> Let $c' = c+n.$ By ***Lemma A.1,*** we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
+> \frac{bc'-ad}{c'^2+d^2}i \\ \\ && \rightarrow \left|
+> \frac{a+bi}{c+di+n} \right|  &=
+> \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 +
+> \left(\frac{bc'-ad}{c'^2+d^2}\right)^2} \\ \\ && &=  \sqrt{\frac{
+> a^2c'^2+2abdc'+b^2d^2}{\left(c'^2+d^2\right)^2} +
+> \frac{b^2c'^2-2abdc'+a^2d^2}{\left(c'^2+d^2\right)^2}} \\ \\ && &= 
+> \sqrt{\frac{\left(a^2+b^2\right)c'^2+\left(a^2+b^2\right)d^2}{\left(c'^2+d^2\right)^2}}
+> \\ \\ && &= 
+> \sqrt{\frac{\left(a^2+b^2\right)\left(c'^2+d^2\right)}{\left(c'^2+d^2\right)^2}}
+> \\ \\ && &=  \sqrt{\frac{a^2+b^2}{c'^2+d^2}}   \\ \\ && &= 
+> \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} \\ \\ && \lim_{n \to
+> \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}&=0 \\ \\
+> \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|
+> &=0  \end{align*}$$
 
-***Proof***
-Let $c' = c+n.$
-By ***Lemma A.1,*** we have $$\begin{align*} 
-&& \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} + \frac{bc'-ad}{c'^2+d^2}i \\ \\
-&& \rightarrow \left| \frac{a+bi}{c+di+n} \right|  &= \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 + \left(\frac{bc'-ad}{c'^2+d^2}\right)^2} \\ \\
-&& &=  \sqrt{\frac{ a^2c'^2+2abdc'+b^2d^2}{\left(c'^2+d^2\right)^2} + \frac{b^2c'^2-2abdc'+a^2d^2}{\left(c'^2+d^2\right)^2}} \\ \\
-&& &=  \sqrt{\frac{\left(a^2+b^2\right)c'^2+\left(a^2+b^2\right)d^2}{\left(c'^2+d^2\right)^2}} \\ \\
-&& &=  \sqrt{\frac{\left(a^2+b^2\right)\left(c'^2+d^2\right)}{\left(c'^2+d^2\right)^2}}  \\ \\
-&& &=  \sqrt{\frac{a^2+b^2}{c'^2+d^2}}   \\ \\
-&& &=  \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} \\ \\
-&& \lim_{n \to \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}&=0 \\ \\
-\rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 \ \ \ \blacksquare
-\end{align*}$$
 \
 This proves $\color{blue}(3)$.
 Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
@@ -226,11 +226,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OT
-g4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMw
-OCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xND
-gyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1
-NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLD
-Q0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mzky
-MjUzNF19
+eyJoaXN0b3J5IjpbLTEyMzg1MTA5NzMsMTEyMzI5NzEwNywxMT
+g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
+NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
+g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
+NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
+wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
+NDU3ODUyXX0=
 -->
