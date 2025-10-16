@@ -183,8 +183,7 @@ Then $$\lim_{n \to \infty} \left| z_n \right|=0 \iff \lim_{n \to \infty} z_n =0 
 ***Proof***
 Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies |x_{n}-x|<\varepsilon \right)\right)\right)$$
 \
-Let $z = \lim_{n \to \infty} \left| z_n \right|.$
-Then
+We have
 $$\begin{align*} 
 && \lim_{n \to \infty} \left| z_n \right| = 0 &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|\left|z_{n}\right|-0\right|<\varepsilon \right)\right)\right) \\ 
 && &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|z_n\right|<\varepsilon \right)\right)\right)  \\ 
@@ -192,11 +191,11 @@ $$\begin{align*}
 && &\iff \lim_{n \to \infty} z_n =0 \\ 
 \end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
-Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
-LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
-M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
-Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
-Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
-MV19
+eyJoaXN0b3J5IjpbLTEyNzYyNDA1MjcsLTg4NjI2NDMwOCwtOT
+k0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4
+NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLT
+EzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQy
+MTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNC
+wxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2
+ODFdfQ==
 -->
