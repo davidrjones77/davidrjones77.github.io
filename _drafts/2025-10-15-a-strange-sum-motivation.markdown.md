@@ -66,7 +66,7 @@ After all, the terms on the right hand side of ***Theorem 1*** are just fraction
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
 
 Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
-We cannot have $b \in \mathbb{Z}$ such that $-n \leq b \leq 0$.
+Again, we must restrict $b$ to prevent division by zero.
 
  ***Theorem 2***
 Let $n \in \N_{\geq1}.$
@@ -113,7 +113,7 @@ With fractions having real numerators and denominators, this would be straightfo
 But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the more general domain of complex numbers.
 
 So let's take a limit at infinity while staying within the domain of complex numbers.
-We'll need to use two facts about complex limits, which are derived in an Appendix at the end of this post.
+We'll need to use two facts about complex limits, which are derived in the **Appendix** at the end of this post.
 
  ***Theorem 3***
 Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$. 
@@ -133,9 +133,9 @@ Thus
 But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTUwMDcyNTAyNywtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Mi
+w3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAx
+MDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
