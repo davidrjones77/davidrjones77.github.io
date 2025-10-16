@@ -170,9 +170,48 @@ So, why stop at an infinite series if you can have an infinitely recursive infin
 
 Intuitively, it seems there shouldn't be a reason why the recursive form of ***Corollary 1*** should not hold, so let's write it out and prove it as a corollary.
 
-The recursive aspect of our new expression will require some subtlety.
+Handling the recursive aspect of our new expression will require some subtlety.
 
-
+> ***Lemma 1.3.14***
+> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
+> 
+> Then $$\LARGE 1=\sum^{\infty}_{a=0}
+> \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
+> \frac{z}{(z+b)\left(z+b+\sum^{\infty}_{c=0}
+> \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$
+> 
+> 
+> ***Proof***
+> For a fixed, arbitrary $n \in \N,$ we make the following definitions. Define $f_n()=1.$ Define $f_{i}()=\sum^{\infty}_{k=0}
+> \frac{z}{(z+k)(z+k+f_{i+1}())},$ where $i \in \N, i \lt n.$ Define
+> $f_\infty() =\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
+> \\ \mathllap{n} \to \mathrlap{\infty}}} f_i().$ \ To prove the
+> theorem, it suffices to show $f_\infty()=1.$
+> 
+> We first prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$
+> 
+> We give a proof by induction. 
+> 
+> Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$
+> 
+> \
+> *Base case:* $P(1)$ is vacuously true.
+> 
+>  \
+> *Inductive step:*  Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$    Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$  
+> But by our definitions and ***Lemma 1.3.12,*** we have $$f_{n-1}() =
+> \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
+> \frac{z}{(z+k)(z+k+1)}= 1$$
+> 
+> This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
+> 1.$
+> 
+>  Thus $P(n)$ is true for all $n \geq 1$.    That is, $f_i()=1$ for all
+> $i$ such that $i \lt n,$ for all $n.$   To conclude the proof, we have
+> $$f_\infty()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
+> \\ \mathllap{n} \to \mathrlap{\infty}}}
+> f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
+> \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -248,11 +287,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjg0NTgyNiwxMTIzMjk3MTA3LDExOD
-YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
-OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
-czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
-OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
-01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
-NTc4NTJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTIyMTUxNzAsMTEyMzI5NzEwNywxMT
+g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
+NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
+g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
+NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
+wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
+NDU3ODUyXX0=
 -->
