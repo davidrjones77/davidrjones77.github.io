@@ -113,7 +113,7 @@ With fractions having real numerators and denominators, this would be straightfo
 But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the more general domain of complex numbers.
 
 So let's take a limit at infinity while staying within the domain of complex numbers.
-We'll need to use two facts about complex limits, which are derived in the **Appendix** at the end of this post.
+We'll need to use two facts about complex limits, which are proved in the **Appendix** at the end of this post.
 
  ***Theorem 3***
 Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$. 
@@ -128,12 +128,13 @@ By the definition of infinite series and limits, and by ***Theorem 2***, we have
  &=\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right] \\ \\
   \end{align*}$$
 
-But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
-and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
+But by ***Lemma A.2*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
+and by ***Lemma A.3*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMz
-E4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2
-MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLT
-EzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsNDk5NDk4
-NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbNDI5NTgzNzU5LC0xNDgyMTk4NjgsNzYyNj
+A1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4Mjcw
+MDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMD
+czMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4
+NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMj
+gzMDIxMV19
 -->
