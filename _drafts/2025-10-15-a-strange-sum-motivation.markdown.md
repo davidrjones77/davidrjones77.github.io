@@ -35,7 +35,7 @@ We have   $$\begin{align*}
 It would seem at this point we can conjecture an answer to our  <font color="purple">***Simple Question.***
 
 ><font color="purple">  ***Conjecture 1***
-><font color="black">  Let $n \in \mathbb{N}_{\geq 1}$. 
+><font color="black">  Let $n \in \mathbb{N}$. 
 > <font color="black"> 
 > Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
 > <font color="purple"> ***Proof*** 
@@ -66,9 +66,10 @@ After all, the terms on the right hand side of  <font color="purple">***Theorem 
 Let's generalize  <font color="purple">***Theorem 1*** <font color="black"> to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
+We use the notation $\N_{0\leq n}$
+
 >  <font color="purple"> ***Theorem 2***
->  <font color="black"> Let $n \in \N_{\geq1}.$ Let $a, b \in \mathbb{C}$,
-> where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
+>  <font color="black"> Let $n \in \N.$ Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
 > <font color="black"> 
 > Then $$\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)}$$
@@ -304,11 +305,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNDM1NzE1LDE0OTk0OTM3MjAsMTEyMz
-I5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1Njky
-NjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
-Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
-LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
-M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
-Nzg2XX0=
+eyJoaXN0b3J5IjpbLTEyOTY4NDQyMjIsNTkyNDM1NzE1LDE0OT
+k0OTM3MjAsMTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5
+MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOT
+k0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4
+NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLT
+EzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQy
+MTkxNl19
 -->
