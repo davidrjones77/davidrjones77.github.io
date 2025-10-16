@@ -138,12 +138,24 @@ When $a,b\in\R$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \fra
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-To get going, we'll need to 
+To get going, we'll remind ourselves of the formula for divison of complex numbers, and give the derivation.
+
+***Lemma ***
+Let $a,b,c,d \in \R$.
+Then
+$$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
+***Proof***
+$$\begin{align*} 
+&&\left(\frac{a+bi}{c+di}\right)\left(\frac{c-di}{c-di}\right) &= \frac{ac+bci-adi+bd}{c^2+d^2}  \\ \\
+&&  &= \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\
+&&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
+&& &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i
+\end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY4MjA4NzksLTE0ODIxOTg2OCw3Nj
-I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
-NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
-IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
-Nzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxND
-IyODMwMjExXX0=
+eyJoaXN0b3J5IjpbMTUyMTMxODE5MCwtMTQ4MjE5ODY4LDc2Mj
+YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
+MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
+A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
+ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgxLDE0Mj
+I4MzAyMTFdfQ==
 -->
