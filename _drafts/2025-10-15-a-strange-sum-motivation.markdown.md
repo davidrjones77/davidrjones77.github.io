@@ -152,7 +152,8 @@ $$\begin{align*}
 &&  &= \frac{ac+bd+bci-adi}{c^2+d^2}  \\ \\
 &&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
-\end{align*}$$ Let's use this to prove $\color{blue}(2)$, and then we'll show that $\color{blue}(2)$ implies $\color{blue}(1)$.
+\end{align*}$$
+Let's use this to prove $\color{blue}(2)$, and then we'll show that $\color{blue}(2)$ implies $\color{blue}(1)$.
 
 ***Lemma A.2***
 Let $a,b,c,d \in \R$  and let $n \in \N.$
@@ -160,7 +161,7 @@ Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
 
 ***Proof***
 Let $c' = c+n.$
-By ***Lemma 1.3.6,*** we have $$\begin{align*} 
+By ***Lemma A.1,*** we have $$\begin{align*} 
 && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} + \frac{bc'-ad}{c'^2+d^2}i \\ \\
 && \rightarrow \left| \frac{a+bi}{c+di+n} \right|  &= \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 + \left(\frac{bc'-ad}{c'^2+d^2}\right)^2} \\ \\
 && &=  \sqrt{\frac{ a^2c'^2+2abdc'+b^2d^2}{\left(c'^2+d^2\right)^2} + \frac{b^2c'^2-2abdc'+a^2d^2}{\left(c'^2+d^2\right)^2}} \\ \\
@@ -172,10 +173,10 @@ By ***Lemma 1.3.6,*** we have $$\begin{align*}
 \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 
 \end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NjQwMzcxLC03ODczODkwODAsLTE0OD
-IxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3
-MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsND
-Q4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIy
-NTM0LDE3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mz
-k3MDY4MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
+M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
+MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLT
+UwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1
+Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLT
+IwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
 -->
