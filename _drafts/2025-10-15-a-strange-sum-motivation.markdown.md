@@ -11,7 +11,7 @@ Are there values of omega for which this expression is mathematically defined?
 If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
-This article assumes no pre-requisites apart from a b
+This article assumes no pre-requisites apart from a basic understanding of algebra, logic, proofs (including proof by induction), and a previous acquaintance with limits and complex
 
 ## Motivation
 Let's call the above expression $\sum^\infty_\Omega$.
@@ -318,11 +318,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NzI0MywxMDMwNjYwODU0LDU5MjQzNT
-cxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0LC0x
-ODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04ODYyNj
-QzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwt
-MTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzOD
-U4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1
-MV19
+eyJoaXN0b3J5IjpbMTU3MDY3NjM3NCwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
