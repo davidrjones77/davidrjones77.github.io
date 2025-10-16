@@ -161,7 +161,8 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 ## From Infinity...to Beyond?
 Consider the expression in ***Corrolary 1*** again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
-
+Conventionally, this equality tells us that the infinite series on the right hand side converges to 1.
+But it also tells us that we can expand 1 into an infinite series, namely an infinite series containing 1.
 
 
 ## Appendix
@@ -238,11 +239,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODQ2MzAzLDExMjMyOTcxMDcsMTE4Nj
-IwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4
-LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
-M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
-MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLT
-UwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1
-Nzg1Ml19
+eyJoaXN0b3J5IjpbLTE5ODY2Mzg1MDksMTEyMzI5NzEwNywxMT
+g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
+NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
+g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
+NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
+wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
+NDU3ODUyXX0=
 -->
