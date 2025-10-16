@@ -66,7 +66,7 @@ After all, the terms on the right hand side of  <font color="purple">***Theorem 
 Let's generalize  <font color="purple">***Theorem 1*** <font color="black"> to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
-We use the notation $\N_{0\leq n}$ to mean $\{n' |\N \cup 0 \}$
+We use the notation $\N_{0\leq n}$ to indicate the non negative integers from $0$ to $n$, for some $n \in \N$.
 
 >  <font color="purple"> ***Theorem 2***
 >  <font color="black"> Let $n \in \N.$ Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
@@ -305,11 +305,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MDEyMjEsNTkyNDM1NzE1LDE0OTk0OT
-M3MjAsMTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcs
-LTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nz
-c4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4Njgs
-NzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNj
-E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
-Nl19
+eyJoaXN0b3J5IjpbNzUyNzY2NDMzLDU5MjQzNTcxNSwxNDk5ND
+kzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3
+LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5ND
+c3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4
+LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMz
+YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
+MTZdfQ==
 -->
