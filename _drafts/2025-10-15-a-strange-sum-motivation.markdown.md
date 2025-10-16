@@ -168,7 +168,9 @@ In other words, this equality can be viewed recursively - we can interpret the s
 
 So, why stop at an infinite series if you can have an infinitely recursive infinite series?
 
-Let's write out the recursi
+Intuitively, it 
+
+Let's write out the recursive form of ***Corrolary 1***
 
 
 
@@ -246,11 +248,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAzNjcxOTUsMTEyMzI5NzEwNywxMT
-g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
-NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
-g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
-NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
-wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
-NDU3ODUyXX0=
+eyJoaXN0b3J5IjpbMTU2Mjk0NTQ4OCwxMTIzMjk3MTA3LDExOD
+YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
+OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
+czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
+OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
+01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
+NTc4NTJdfQ==
 -->
