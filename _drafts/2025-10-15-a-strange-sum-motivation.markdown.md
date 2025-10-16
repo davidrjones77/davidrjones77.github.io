@@ -134,11 +134,11 @@ and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
 
-When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}.$$
+When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}. \ \ \ \ \color{blue}(1)$$
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(1)$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0, \ \ \ \ \color{blue}(2)$$ suffices.
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(2)$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0, \ \ \ \ \color{blue}(3)$$ suffices.
 
 We're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
 
@@ -153,7 +153,7 @@ $$\begin{align*}
 &&  &= \frac{ac+bd}{c^2+d^2} + \frac{bci-adi}{c^2+d^2} \\ \\
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$
-Let's use this to prove $\color{blue}(2)$, and then we'll show that $\color{blue}(2)$ implies $\color{blue}(1)$.
+Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
 ***Lemma A.2***
 Let $a,b,c,d \in \R$  and let $n \in \N.$
@@ -173,8 +173,8 @@ By ***Lemma A.1,*** we have $$\begin{align*}
 \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 \ \ \ \blacksquare
 \end{align*}$$
 \
-This proves $\color{blue}(2)$.
-Let's show that $\color{blue}(2)$ implies $\color{blue}(1)$.
+This proves $\color{blue}(3)$.
+Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 \
 ***Lemma A.3***
 Let $\{z_n\}$ be a sequence such that $z_n \in \mathbb{C}$
@@ -193,11 +193,11 @@ $$\begin{align*}
 
 Thus  $\color{blue}(2)$ implies $\color{blue}(1)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODU2MDk4MSwtODg2MjY0MzA4LC05OT
-Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
-OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MV19
+eyJoaXN0b3J5IjpbMzg0MTg4MDI2LC04ODYyNjQzMDgsLTk5ND
+c3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4
+LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMz
+YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
+MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
+c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
+XX0=
 -->
