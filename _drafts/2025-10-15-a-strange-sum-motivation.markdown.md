@@ -215,11 +215,12 @@ Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 > \lim_{n \to \infty} z_n =0 $$
 > 
 > <font color="black">***Proof***
-> Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in
+> Recall the formal definition of a limit of a (real or complex) sequence:$$\lim_{n \to \infty} x_n = x \iff \forall
+> \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in
 > \mathbb {N} \left(n\geq N\implies |x_{n}-x|<\varepsilon
-> \right)\right)\right)$$ \ We have $$\begin{align*}  && \lim_{n \to
-> \infty} \left| z_n \right| = 0 &\iff \forall \varepsilon
-> >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|\left|z_{n}\right|-0\right|<\varepsilon
+> \right)\right)\right)$$ 
+> We have $$\begin{align*}  && \lim_{n \to
+> \infty} \left| z_n \right| = 0 &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|\left|z_{n}\right|-0\right|<\varepsilon
 > \right)\right)\right) \\  && &\iff \forall \varepsilon >0\left(\exists
 > N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies
 > \left|z_n\right|<\varepsilon \right)\right)\right)  \\  && &\iff
@@ -229,15 +230,16 @@ Let's show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 > \lim_{n \to \infty} z_n =0 \\  \end{align*}$$
 
 Thus  $\color{blue}(3)$ implies $\color{blue}(2)$.
+
 But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffices to show $\color{blue}(1)$, which was the goal we were trying to accomplish.
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTYyMDcwMywxMTIzMjk3MTA3LDExOD
-YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
-OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
-czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
-OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
-01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
-NTc4NTJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTc1NjU1ODEsMTEyMzI5NzEwNywxMT
+g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
+NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
+g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
+NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
+wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
+NDU3ODUyXX0=
 -->
