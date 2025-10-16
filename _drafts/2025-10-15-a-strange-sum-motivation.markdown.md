@@ -105,13 +105,14 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 ## Taking a Limit
 
 But why stop at $n$ terms?
-If we can expand our sum to arbitrarily many terms, surely we can expand to infinitely many terms.
-With fractions having real numerators and denominators, this should be straightforward.
+If we can expand our sum to *arbitrarily* many terms, surely we can expand to infinitely many terms.
+With fractions having real numerators and denominators, this shouldn't pose much of a problem.
+But we'd rather not lose generality now, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU3ODMwMTgsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbNzkwOTAwNjUyLC02NjM4NTg1NzMsLTEzNj
+E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
+NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
+Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEs
+MTQyMjgzMDIxMV19
 -->
