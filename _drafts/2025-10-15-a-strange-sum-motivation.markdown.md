@@ -66,7 +66,8 @@ After all, the terms on the right hand side of ***Theorem 1*** are just fraction
 We should be able to expand terms on the right hand side of ***Theorem 1*** as many times as we like, and we know the form such terms should take.
 
 Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
-Again, we can't allow division by zero, so $b$ can't be zero, but neither can it be $-n$, nor can it be $-i$ for any of the $i$ values in the summation.
+We can't allow division by zero, so $b$ can't be zero, $-n$, or $-i$ for any of the $i$ values in the summation.
+That is, $b$ can't be any of the non-positive integers from zero to $-n$, inclusive.
 
  ***Theorem 2***
 Let $n \in \N_{\geq1}.$
@@ -133,9 +134,9 @@ Thus
 But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk1MTE4MjgsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbLTc3NzI1Njc1NywtNjYzODU4NTczLC0xMz
+YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
+MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
+c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
+LDE0MjI4MzAyMTFdfQ==
 -->
