@@ -96,10 +96,13 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
  && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
  \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}} \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\ 
-  \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} = P(n+1)
+  \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+  \rightarrow && &P(n+1)
  \end{align*}$$
 
- Thus $P(n)$ is true for all $n \geq 1$.
+ Thus $P(n)$ is true for all $n \geq 1$. $\ \ \ \blacksquare$
+
+
 
 
 
@@ -109,9 +112,9 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzAyMzc3OSwtMTM2MTgyNzAwMSwtMz
-cyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3
-ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUwNzg2NjEsND
-k5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4MSwxNDIyODMwMjEx
-XX0=
+eyJoaXN0b3J5IjpbLTE2MTk5Njg2OTksLTEzNjE4MjcwMDEsLT
+M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
+Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
+Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
+MV19
 -->
