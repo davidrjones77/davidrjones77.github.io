@@ -12,7 +12,10 @@ If so, for which values of omega does this sum converge?
 $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{black}+a)\left(\color{red}\Omega\color{black}+a\sum^{\infty}_{b=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+b)\left(\color{red}\Omega\color{black}+b+\sum^{\infty}_{c=0} \frac{\color{red}\Omega\color{black}}{(\color{red}\Omega\color{black}+c)(\color{red}\Omega\color{black}+c+...)}\right)}\right)}$$
 
 ## Motivation
-Where does this expression come from?
+Let's call this expression $\sum^\infty_\Omega$.
+
+Where did $\sum^\infty_\Omega$ come from?
+
 I was initially interested in a much simpler question.
 
 > <font color="purple"> ***Simple Question:***  <font color="black">*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
@@ -313,11 +316,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1OTgwOTc2LDEwMzA2NjA4NTQsNTkyND
-M1NzE1LDE0OTk0OTM3MjAsMTEyMzI5NzEwNywxMTg2MjAxNDQs
-LTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4Nj
-I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
-LC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
-M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
-NjUxXX0=
+eyJoaXN0b3J5IjpbMTM2NjM4OTcyNSwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
