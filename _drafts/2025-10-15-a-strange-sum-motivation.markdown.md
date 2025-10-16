@@ -134,8 +134,8 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
-It's natural to look for simplifying special cases of  <font color="p">***Theorem 3***. 
-First, let's give the special case of $\frac{a}{b}=1$.
+It's natural to look for simplifying special cases of  <font color="purple">***Theorem 3***. 
+ <font color="black">First, let's give the special case of $\frac{a}{b}=1$.
 
 >  <font color="purple"> ***Corollary 1***
 >   <font color="black"> Let $z \in \mathbb{C}$, where $z \notin
@@ -143,7 +143,7 @@ First, let's give the special case of $\frac{a}{b}=1$.
 > <font color="black"> 
 > Then $$\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}=1$$
 > <font color="purple">  ***Proof***
->  <font color="black">By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+>  <font color="black">By  <font color="purple">***Theorem 3***  <font color="black">we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 <br>But we can simplify further, and take $z = 1$.
 This leaves us with a rather satisfying infinite series, which you may have seen before.
@@ -157,11 +157,11 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 > 
 > 
 > <font color="purple"> ***Proof***
->  <font color="black">By ***Corollary 1*** we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
+>  <font color="black">By  <font color="purple">***Corollary 1*** <font color="black"> we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
 ## From Infinity...to Beyond?
-Consider the expression in ***Corollary 1*** again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+Consider the expression in  <font color="purple">***Corollary 1***  <font color="black">again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 Conventionally, this equality tells us that the infinite series on the right hand side converges to 1.
 
@@ -170,7 +170,7 @@ In other words, this equality can be viewed recursively - we can interpret the s
 
 So, why stop at an infinite series if you can have an infinitely recursive infinite series?
 
-Intuitively, it seems there shouldn't be a reason why the recursive form of ***Corollary 1*** should not hold, so let's write it out and prove it as a corollary.
+Intuitively, it seems there shouldn't be a reason why the recursive form of  <font color="purple">***Corollary 1***  <font color="black">should not hold, so let's write it out and prove it as a corollary.
 
 Handling the recursive aspect of our new expression will require some subtlety.
 
@@ -209,7 +209,7 @@ Handling the recursive aspect of our new expression will require some subtlety.
 >
 > <font color="black">Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$  
 > 
-> <font color="black"> But by our definitions and ***Corollary 1,*** we have $$f_{n-1}() =
+> <font color="black"> But by our definitions and  <font color="purple">***Corollary 1***<font color="black">,  we have $$f_{n-1}() =
 > \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
 > \frac{z}{(z+k)(z+k+1)}= 1$$
 > 
@@ -304,11 +304,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTI4NTI2NiwxNDk5NDkzNzIwLDExMj
-MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
-MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
-k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
-MCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC
-0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEy
-NTc4Nl19
+eyJoaXN0b3J5IjpbNTkyNDM1NzE1LDE0OTk0OTM3MjAsMTEyMz
+I5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1Njky
+NjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
+Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
+LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
+M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
+Nzg2XX0=
 -->
