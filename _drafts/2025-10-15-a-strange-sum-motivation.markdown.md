@@ -170,7 +170,7 @@ So, why stop at an infinite series if you can have an infinitely recursive infin
 
 Intuitively, it seems there shouldn't be a reason why the recursive form of ***Corollary 1*** should not hold, so let's write it out and prove it as a corollary.
 
-We're going to need to get creative for this proof, as t
+The recursive aspect of our new expression will require some subtlety.
 
 
 
@@ -248,7 +248,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjIzMDU0NSwxMTIzMjk3MTA3LDExOD
+eyJoaXN0b3J5IjpbMjExMjg0NTgyNiwxMTIzMjk3MTA3LDExOD
 YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
 OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
 czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
