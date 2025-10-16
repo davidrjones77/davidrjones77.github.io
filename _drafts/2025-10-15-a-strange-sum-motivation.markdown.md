@@ -86,12 +86,12 @@ Again, we must restrict $b$ to prevent division by zero.
 >  
 >  <font color="blue">*Inductive step:*</font>  <font color="black"> Assume $P(n)$ is true for some fixed, arbitrary $n.$
 > <font color="black">  
-> Then by <font color="blue">***Theorem 1***</font> and the <font
+> Then by <font color="darkorange">***Theorem 1***</font> and the <font
 > color="red">inductive hypothesis</font>,   $$\begin{align*}  &&
 > \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\  \rightarrow &&
 > \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0}
-> \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}-
+> \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{darkorange}{\frac{a}{b+n}-
 > \frac{a}{b+n+1}} \\ \\  \rightarrow && \sum^{n}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}}
 > \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\    \rightarrow &&
@@ -304,11 +304,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjQwNDI5OCwxNDk5NDkzNzIwLDExMj
-MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
-MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
-k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
-MCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC
-0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEy
-NTc4Nl19
+eyJoaXN0b3J5IjpbNDIwNzQ0OTI2LDE0OTk0OTM3MjAsMTEyMz
+I5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1Njky
+NjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OT
+Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
+LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
+M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
+Nzg2XX0=
 -->
