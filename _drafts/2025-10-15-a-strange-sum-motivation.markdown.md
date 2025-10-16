@@ -232,7 +232,7 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
 ## Conclusion
-Since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the perplexing question asked at the outset: 
+Since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset: 
 
 Our strange sum is not defined whenever $\Omega$ is a non-positive integer, but for any other $\Omega \in \mathbb{C}$, this sum converges to 1!
 
@@ -317,11 +317,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE2ODMzNTgsMTAzMDY2MDg1NCw1OT
-I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
-NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
-g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
-ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
-Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
-MDE2NTFdfQ==
+eyJoaXN0b3J5IjpbNzUzMjA4NTczLDEwMzA2NjA4NTQsNTkyND
+M1NzE1LDE0OTk0OTM3MjAsMTEyMzI5NzEwNywxMTg2MjAxNDQs
+LTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4Nj
+I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
+LC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
+M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
+NjUxXX0=
 -->
