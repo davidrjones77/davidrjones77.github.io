@@ -158,7 +158,7 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 > By ***Corollary 1*** we have  $$1 = \frac{1}{1}=\sum^{\infty}_{n=0}
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
-## Next Section
+## From Infinity...to Beyond?
 
 
 ## Appendix
@@ -226,11 +226,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOT
-Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
-MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
-YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
-MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMj
-A3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3
-ODY2MV19
+eyJoaXN0b3J5IjpbMTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OT
+g4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMw
+OCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xND
+gyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1
+NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLD
+Q0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mzky
+MjUzNF19
 -->
