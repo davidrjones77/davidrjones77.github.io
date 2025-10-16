@@ -132,7 +132,7 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
-It's easy to see a special case of ***Theorem 3***, namely when $\frac{a}{b}=1$.
+It's natural to look for simplifying special cases fo***Theorem 3***, namely when $\frac{a}{b}=1$.
 
 >  <font color="black"> ***Corollary 1***
 >   Let $z \in \mathbb{C}$, where $z \notin
@@ -142,7 +142,7 @@ It's easy to see a special case of ***Theorem 3***, namely when $\frac{a}{b}=1$.
 > <font color="black">  ***Proof***
 > By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
-This seems to be a trivial observe
+This is a trivial observation, 
 
 > <font color="black"> ***Corollary 2***
 > $$\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}=\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\dots=1$$
@@ -217,7 +217,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI2NjQ0NjIsLTE4OTg4NjE5MDcsLT
+eyJoaXN0b3J5IjpbLTE2NTQ0Mjc5ODAsLTE4OTg4NjE5MDcsLT
 E5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4
 NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNz
 YyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4
