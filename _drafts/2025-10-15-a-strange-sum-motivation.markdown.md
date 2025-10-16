@@ -14,12 +14,11 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 ## Motivation
 Let's call the above expression $\sum^\infty_\Omega$.
 
-Where did $\sum^\infty_\Omega$ come from?
-Is there any motivation for this?
+Where does $\sum^\infty_\Omega$ come from?
 
 I was initially interested in a much simpler question.
 
-> <font color="purple"> ***Simple Question:*** </font>  <font color="black">*When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+> <font color="purple"> ***Simple Question***</font><font color="black">: *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -316,11 +315,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQyMjQ0NzgsMTAzMDY2MDg1NCw1OT
-I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
-NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
-g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
-ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
-Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
-MDE2NTFdfQ==
+eyJoaXN0b3J5IjpbMTY1MDE2NjAzMCwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
