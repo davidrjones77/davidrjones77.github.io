@@ -159,7 +159,7 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
 ## From Infinity...to Beyond?
-
+Let's look at 
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -235,11 +235,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc1NjU1ODEsMTEyMzI5NzEwNywxMT
-g2MjAxNDQsLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5
-NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNz
-g3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYx
-NzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMy
-wtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2
-NDU3ODUyXX0=
+eyJoaXN0b3J5IjpbNDgwNDg2NzAyLDExMjMyOTcxMDcsMTE4Nj
+IwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4
+LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
+M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
+MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLT
+UwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1
+Nzg1Ml19
 -->
