@@ -159,7 +159,10 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 > \frac{1}{(1+n)(1+n+1)}=\sum^{\infty}_{n=0} \frac{1}{(n+1)(n+2)}$$
 
 ## From Infinity...to Beyond?
-Let's look at 
+Consider the expression in ***Corrolary 1*** again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+
+
+
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -235,7 +238,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNDg2NzAyLDExMjMyOTcxMDcsMTE4Nj
+eyJoaXN0b3J5IjpbMTkwODQ2MzAzLDExMjMyOTcxMDcsMTE4Nj
 IwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4
 LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
 M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
