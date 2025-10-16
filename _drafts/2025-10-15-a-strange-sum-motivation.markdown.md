@@ -111,13 +111,29 @@ With fractions having real numerators and denominators, this would be straightfo
 But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the more general domain of complex numbers.
 
 So let's take a limit at infinity while staying within the domain of complex numbers.
-We'll need to use two facts about complex limits, b
+We'll need to use two facts about complex limits, which are derived in an Appendix at the end of this post.
 
+ ***Theorem 3***
+Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$. 
 
+Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
+
+***Proof***
+By ***Lemma 1.3.10*** we have $$\frac{a}{b} - \frac{a}{b+n} = \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$ where $n \in \N_{\geq1}.$
+
+Thus 
+ $$\begin{align*}
+  \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+  &=\lim_{n \to \infty}\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
+ &=\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right] \\ \\
+  \end{align*}$$
+
+But by ***Lemma 1.3.7*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
+and by ***Lemma 1.3.8*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY2MDg4MzQsLTY2Mzg1ODU3MywtMT
-M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
-OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
-E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
-MSwxNDIyODMwMjExXX0=
+eyJoaXN0b3J5IjpbMTMwNzYxMjIzOSwtNjYzODU4NTczLC0xMz
+YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
+MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
+c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
+LDE0MjI4MzAyMTFdfQ==
 -->
