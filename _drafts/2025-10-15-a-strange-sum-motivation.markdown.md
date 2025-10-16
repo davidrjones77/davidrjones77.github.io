@@ -50,12 +50,12 @@ And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, we should be able to generalize our result (taking care to restrict $b$ to prevent division by zero).
 Let's do that.
 
-> <font color="green"> ***Theorem 1*** 
+> <font color="purple"> ***Theorem 1*** 
 > <font color="black"> Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
 > <font color="black"> 
 > Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
-> <font color="black">  ***Proof*** 
->   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
+> <font color="purple">  ***Proof*** 
+> <font color="black">   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
 > \frac{a}{b+1} + \frac{a}{b(b+1)} \end{align*}$$
 
 ## Expanding Terms
@@ -66,15 +66,15 @@ We should be able to expand terms on the right hand side of ***Theorem 1*** as m
 Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
->  <font color="black"> ***Theorem 2***
->  Let $n \in \N_{\geq1}.$ Let $a, b \in \mathbb{C}$,
+>  <font color="purple"> ***Theorem 2***
+>  <font color="black"> Let $n \in \N_{\geq1}.$ Let $a, b \in \mathbb{C}$,
 > where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
 > <font color="black"> 
 > Then $$\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)}$$
 > <font color="black"> 
-> ***Proof***
-> We give a proof by induction.
+>  <font color="purple">***Proof***
+> <font color="black"> We give a proof by induction.
 > <font color="black"> 
 > Let $P(n)$ be the claim $\frac{a}{b} = \frac{a}{b+n} +
 > \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}.$
@@ -110,14 +110,14 @@ But we'd rather not lose generality - we'd like to expand our sum to infinitely 
 So let's take a limit at infinity while staying within the domain of complex numbers.
 We'll need to use two facts about complex limits, which are proved in the **Appendix** at the end of this post.
 
-> <font color="black">  ***Theorem 3***
->  Let $a, b \in \mathbb{C}$, where $b \notin
+> <font color="purple">  ***Theorem 3***
+>   <font color="black">Let $a, b \in \mathbb{C}$, where $b \notin
 > \Z_{\leq0}$. 
 > <font color="black">  
 > Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 > 
-> <font color="black"> ***Proof*** 
-> By the definition of infinite series and limits, and by ***Theorem 2***, we have  $$\begin{align*}   \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0}
+> <font color="purple"> ***Proof*** 
+>  <font color="black">By the definition of infinite series and limits, and by ***Theorem 2***, we have  $$\begin{align*}   \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}&=\lim_{n \to \infty}\sum^{n}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} \\ \\   &=\lim_{n \to \infty}\sum^{n-1}_{i=0}
 > \frac{a}{(b+i)(b+i+1)} \\ \\  &=\lim_{n \to \infty}\left[\frac{a}{b} -
 > \frac{a}{b+n} \right] \\ \\   \end{align*}$$ <font color="black">  But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty}
@@ -304,7 +304,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODE1MTA4MCwxNDk5NDkzNzIwLDExMj
+eyJoaXN0b3J5IjpbMTk2MjQwNDI5OCwxNDk5NDkzNzIwLDExMj
 MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
 MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
 k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
