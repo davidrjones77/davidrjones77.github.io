@@ -170,7 +170,8 @@ Consider the expression in  <font color="purple">***Corollary 1***  <font color=
 
 Conventionally, this equality tells us that the infinite series on the right hand side converges to 1.
 
-But it also tells us that we can expand 1 into an infinite series, namely an infinite series containing 1.
+But it also tells us there exists an expansion of 1 into an infinite series, namely an infinite series itself containing 1.
+
 In other words, this equality can be viewed recursively - we can interpret the series on the right hand side as containing itself, infinitely!
 
 So, why stop at an infinite series if you can have an infinitely recursive infinite series?
@@ -315,7 +316,7 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDI5NzE0NCwxMDMwNjYwODU0LDU5Mj
+eyJoaXN0b3J5IjpbMjA1OTY5NzUxNSwxMDMwNjYwODU0LDU5Mj
 QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
 LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
 YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
