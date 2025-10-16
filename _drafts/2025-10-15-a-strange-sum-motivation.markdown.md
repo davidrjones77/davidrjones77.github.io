@@ -105,12 +105,12 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 ## Taking a Limit
 
 But why stop at $n$ terms?
-If we can expand our som
+If we can expand our sum to arbitrarily many terms, surely we can expand to infinitely many terms.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTAzNjczOSwtNjYzODU4NTczLC0xMz
-YxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5
-MTYsMjA3MzEyNTc4NiwtMTMyNjQ1Nzg1Miw3NjM5MjI1MzQsMT
-c2NTA3ODY2MSw0OTk0OTg1NDYsLTIwNzAxMDUsOTYzOTcwNjgx
-LDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQ5MjUyNDEsLTY2Mzg1ODU3MywtMT
+M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
+OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
+E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
+MSwxNDIyODMwMjExXX0=
 -->
