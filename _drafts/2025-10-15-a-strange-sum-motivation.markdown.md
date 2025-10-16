@@ -190,12 +190,14 @@ $$\begin{align*}
 && &\iff \forall \varepsilon >0\left(\exists N\in \mathbb {N} \left(\forall n\in \mathbb {N} \left(n\geq N\implies \left|z_{n}-0\right|<\varepsilon \right)\right)\right)  \\ 
 && &\iff \lim_{n \to \infty} z_n =0 \\ 
 \end{align*}$$
+
+Thus  $\color{blue}(2)$ implies $\color{blue}(1)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYyNDA1MjcsLTg4NjI2NDMwOCwtOT
-k0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4
-NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLT
-EzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQy
-MTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNC
-wxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2
-ODFdfQ==
+eyJoaXN0b3J5IjpbMjA3ODU2MDk4MSwtODg2MjY0MzA4LC05OT
+Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
+OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
+M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
+OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
+E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
+MV19
 -->
