@@ -34,11 +34,12 @@ We have   $$\begin{align*}
 
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
-><font color="black">  ***Conjecture 1***
->Let $n \in \mathbb{N}_{\geq 1}$. 
+><font color="purple">  ***Conjecture 1***
+><font color="black">  Let $n \in \mathbb{N}_{\geq 1}$. 
 > <font color="black"> 
 > Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
-> ***Proof***   $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
+> <font color="purple"> ***Proof*** 
+> <font color="black">  $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
 > \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
 
 So we have an answer to our ***Simple Question*** - *the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
@@ -49,11 +50,12 @@ And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, we should be able to generalize our result (taking care to restrict $b$ to prevent division by zero).
 Let's do that.
 
-> <font color="black"> ***Theorem 1*** 
-> Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
+> <font color="green"> ***Theorem 1*** 
+> <font color="black"> Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
 > <font color="black"> 
 > Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
-> <font color="black">  ***Proof***   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
+> <font color="black">  ***Proof*** 
+>   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
 > \frac{a}{b+1} + \frac{a}{b(b+1)} \end{align*}$$
 
 ## Expanding Terms
@@ -302,11 +304,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExOD
-YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
-OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
-czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
-OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC
-01MDk4MDE2NTEsNDQ4NDIxOTE2LDIwNzMxMjU3ODYsLTEzMjY0
-NTc4NTJdfQ==
+eyJoaXN0b3J5IjpbLTkwODE1MTA4MCwxNDk5NDkzNzIwLDExMj
+MyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOTY0NTY5
+MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1ND
+k2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQw
+MCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC
+0zNzI0OTYxMDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEy
+NTc4Nl19
 -->
