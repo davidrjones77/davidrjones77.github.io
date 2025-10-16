@@ -176,7 +176,7 @@ In other words, this equality can be viewed recursively - we can interpret the s
 
 So, why stop at an infinite series if you can have an infinitely recursive infinite series?
 
-Intuitively, it seems there shouldn't be a reason why the recursive form of  <font color="purple">***Corollary 1***  <font color="black">should not hold, so let's write it out and prove it as a corollary.
+Intuitively, it seems there shouldn't be a reason why the recursive form of  <font color="purple">***Corollary 1***  </font>should not hold, so let's write it out and prove it as a corollary.
 
 Handling the recursive aspect of our new expression will require some subtlety.
 
@@ -233,7 +233,7 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
 ## Conclusion
-Since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
+Since the right hand side of <font color="purple"> ***Corollary 3***</font> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
 
 > <font color="purple">***A Strange Conclusion***: <font
 > color="black">Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$.
@@ -242,11 +242,11 @@ Since the right hand side of <font color="purple"> ***Corollary 3***<font color=
 
 
 ## Appendix
-This appendix serves as a side quest in the proof of ***Theorem 3***.
+This appendix serves as a side quest in the proof of <font color="purple">***Theorem 3***</font>.
 
 When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}. \ \ \ \ \color{blue}(1)$$
 
-But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
+But for the proof of <font color="purple">***Theorem 3***</font>, we need to show this for $a,b\in\mathbb{C}$.
 
 It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0, \ \ \ \ \color{blue}(2)$$ but (as we will demonstrate) showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0, \ \ \ \ \color{blue}(3)$$ suffices.
 
@@ -269,7 +269,7 @@ Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue
 > Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
 > 
 > <font color="purple">***Proof*** 
->  <font color="black">Let $c' = c+n.$ By ***Lemma A.1,*** we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
+>  <font color="black">Let $c' = c+n.$ By <font color="purple">***Lemma A.1***</font>, we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
 > \frac{bc'-ad}{c'^2+d^2}i \\ \\ && \rightarrow \left|
 > \frac{a+bi}{c+di+n} \right|  &=
 > \sqrt{\left(\frac{ac'+bd}{c'^2+d^2}\right)^2 +
@@ -316,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0ODA3MjUsMTAzMDY2MDg1NCw1OT
-I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
-NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
-g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
-ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
-Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
-MDE2NTFdfQ==
+eyJoaXN0b3J5IjpbLTM2NTExMzk3NCwxMDMwNjYwODU0LDU5Mj
+QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
+LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
+YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
+MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
+YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
+MTY1MV19
 -->
