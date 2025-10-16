@@ -115,8 +115,7 @@ But we'd rather not lose generality - we'd like to expand our sum to infinitely 
 So let's take a limit at infinity while staying within the domain of complex numbers.
 We'll need to use two facts about complex limits, which are proved in the **Appendix** at the end of this post.
 
- ***Theorem 3***
-Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$. 
+ ***Theorem 3*** Let $a, b \in \mathbb{C}$, where $b \notin \Z_{\leq0}$. 
 
 Then $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 
@@ -212,11 +211,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4Nj
-I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
-LC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02Nj
-M4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAx
-NjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLD
-c2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEw
-NV19
+eyJoaXN0b3J5IjpbNDE2NDIzODY5LC0xOTY0NTY5MjYzLDY3NT
+E1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEs
+LTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMT
+g2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYx
+MDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMT
+MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
+NDZdfQ==
 -->
