@@ -250,7 +250,7 @@ It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ \ \color{blue}(2
 
 To get started, we're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's begin there.
 
-This is one of the first formulas given in any textbook introduction to complex numbers, but we demonstrate it here to keep the presentation self contained and to
+This is one of the first formulas given in any textbook introduction to complex numbers, but we demonstrate it here both to keep the presentation self contained and to maintain an attitude of developing the results in this article from first principles.
 
 ><font color="purple"> ***Lemma A.1*** 
 >  <font color="black">Let $a,b,c,d \in \R$.
@@ -316,7 +316,7 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MzcxOTYwLDEwMzA2NjA4NTQsNTkyND
+eyJoaXN0b3J5IjpbNjU4NTQ0MTkwLDEwMzA2NjA4NTQsNTkyND
 M1NzE1LDE0OTk0OTM3MjAsMTEyMzI5NzEwNywxMTg2MjAxNDQs
 LTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4Nj
 I2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgw
