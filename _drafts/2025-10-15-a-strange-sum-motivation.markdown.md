@@ -4,7 +4,7 @@ title:  "A Strange Sum - Motivation"
 date:   2025-10-15 20:09:15 -0400
 categories: infinite_series
 ---
-# A Strange Sum - Origins
+# A Strange Sum, Developed
 ## Recap
 In the last post, I presented a strange sum (see below).
 Are there values of omega for which this expression is mathematically defined?
@@ -250,7 +250,7 @@ But for the proof of <font color="purple">***Theorem 3***</font>, we need to sho
 
 It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0 \ \ \ \ \color{blue}(2)$$ but, as we will demonstrate, showing $$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0 \ \ \ \ \color{blue}(3)$$ suffices.
 
-To get stae're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's derive that.
+To get started, we're going to need to represent a ratio of complex numbers as the sum of ratios of complex numbers, so let's begin there.
 
 ><font color="purple"> ***Lemma A.1*** 
 >  <font color="black">Let $a,b,c,d \in \R$.
@@ -262,7 +262,7 @@ To get stae're going to need to represent a ratio of complex numbers as the sum 
 > \frac{bci-adi}{c^2+d^2} \\ \\ && &= \frac{ac+bd}{c^2+d^2} +
 > \frac{bc-ad}{c^2+d^2}i  \end{align*}$$
 
-Let's use this to prove $\color{blue}(3)$, and then we'll show that $\color{blue}(3)$ implies $\color{blue}(2)$.
+We will use this to prove $\color{blue}(3)$, and then show that $\color{blue}(3)$ implies $\color{blue}(2)$.
 
 > <font color="purple">***Lemma A.2*** 
 >  <font color="black">Let $a,b,c,d \in \R$  and let $n \in \N.$
@@ -316,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTA4MjQ5MywxMDMwNjYwODU0LDU5Mj
-QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
-LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
-YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
-MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5MCwtNj
-YzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLTUwOTgw
-MTY1MV19
+eyJoaXN0b3J5IjpbLTExNzQyMjQ0NzgsMTAzMDY2MDg1NCw1OT
+I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
+NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
+g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
+ODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLT
+Y2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4
+MDE2NTFdfQ==
 -->
