@@ -131,6 +131,15 @@ By the definition of infinite series and limits, and by ***Theorem 2***, we have
 But by ***Lemma A.2 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0$$
 and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\right|=0 \iff \lim_{n \to \infty} \frac{a}{b+n}=0$$ and so $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}$$ thus $$\frac{a}{b} = \sum^{\infty}_{n=0} \frac{a}{(b+n)(b+n+1)}$$
 
+## Next Section
+ ***Lemma 1.3.12***
+Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$. 
+
+Then $$\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}=1$$
+
+***Proof***
+By ***Lemma 1.3.11*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
 
@@ -196,7 +205,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODUwMDM3MSwtODg2MjY0MzA4LC05OT
+eyJoaXN0b3J5IjpbMTg4ODYwMTczOCwtODg2MjY0MzA4LC05OT
 Q3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2
 OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMT
 M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
