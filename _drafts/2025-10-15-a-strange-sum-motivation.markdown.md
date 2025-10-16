@@ -132,12 +132,15 @@ Where does this leave us?
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
+It's easy to see a special case of ***Theorem 3***, namely when $\frac{a}{b}=1$.
+
 >  <font color="black"> ***Corollary 1***
 >   Let $z \in \mathbb{C}$, where $z \notin
 > \Z_{\leq0}$. 
 > <font color="black"> 
 > Then $$1=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
-> <font color="black">  ***Proof*** By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
+> <font color="black">  ***Proof***
+> By ***Theorem 3*** we have $$1 = \frac{z}{z}=\sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
@@ -204,11 +207,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTYzODM4MywtMTg5ODg2MTkwNywtMT
-k2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3
-MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0ODIxOTg2OCw3Nj
-I2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgy
-NzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIxOTE2LD
-IwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LDE3NjUw
-Nzg2NjFdfQ==
+eyJoaXN0b3J5IjpbLTEwMTI2NTI0MTcsLTE4OTg4NjE5MDcsLT
+E5NjQ1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4
+NzExLDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNz
+YyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4
+MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNi
+wyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1
+MDc4NjYxXX0=
 -->
