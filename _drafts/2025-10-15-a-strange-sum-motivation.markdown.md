@@ -232,10 +232,10 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
 ## Conclusion
-Since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset: 
+Since the right hand side of <font color="purple"> ***Corollary 3***<font color="black"> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
 
 > <font color="purple">***A Strange Conclusion***: <font
-> color="black">$\sum^\infty_\Omega$ is not defined whenever $\Omega$ is  a non-positive integer, but for any other $\Omega \in \mathbb{C}$, this sum converges to 1!
+> color="black">Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then
 
 
 
@@ -314,7 +314,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyMzA4OTQsMTAzMDY2MDg1NCw1OT
+eyJoaXN0b3J5IjpbLTIwMjA0NTQ1OTcsMTAzMDY2MDg1NCw1OT
 I0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0
 NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtOD
 g2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkw
