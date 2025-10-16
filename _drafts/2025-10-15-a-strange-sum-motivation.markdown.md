@@ -228,7 +228,8 @@ Handling the recursive aspect of our new expression will require some subtlety.
 > \mathllap{n} \to \mathrlap{\infty}}} 1=1$$
 
 ## Conclusion
-In <font color="purple"> ***Corollary 3***<font color="black">, we have
+By arriving at <font color="purple"> ***Corollary 3***<font color="black">, we have arrived at our strange sum
+
 
 
 ## Appendix
@@ -305,7 +306,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDY0NjMyNSwxMDMwNjYwODU0LDU5Mj
+eyJoaXN0b3J5IjpbLTkxMjg2ODI2MywxMDMwNjYwODU0LDU5Mj
 QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
 LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
 YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
