@@ -134,11 +134,11 @@ and by ***Lemma A.3 (see Appendix)*** $$\lim_{n \to \infty} \left|\frac{a}{b+n}\
 ## Appendix
 This appendix serves as a side quest in the proof of ***Theorem 3***.
 
-When $a,b\in\R$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}.$$
+When $a,b\in\R$ and $n \in \N$, it's obvious that $$\lim_{n \to \infty}\left[\frac{a}{b} - \frac{a}{b+n} \right]=\frac{a}{b}.$$
 
 But for the proof of ***Theorem 3***, we need to show this for $a,b\in\mathbb{C}$.
 
-It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0.$$
+It suffices to show $$\lim_{n \to \infty}\frac{a}{b+n} =0,$$ and as we will demonstrate, 
 
 To get going, we'll remind ourselves of the formula for divison of complex numbers, and give the derivation.
 
@@ -154,7 +154,7 @@ $$\begin{align*}
 && &= \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i \ \ \ \blacksquare
 \end{align*}$$ Now we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTc2MzE3OCwtNzg3Mzg5MDgwLC0xND
+eyJoaXN0b3J5IjpbMTY1NTg4MDQ0OSwtNzg3Mzg5MDgwLC0xND
 gyMTk4NjgsNzYyNjA1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1
 NzMsLTEzNjE4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLD
 Q0ODQyMTkxNiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2Mzky
