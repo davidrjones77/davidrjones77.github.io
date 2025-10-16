@@ -110,13 +110,14 @@ If we can expand our sum to *arbitrarily* (i.e. *fintely*) many terms, surely we
 With fractions having real numerators and denominators, this would be straightforward.
 But we'd rather not lose generality - we'd like to expand our sum to infinitely many terms while staying within the more general domain of complex numbers.
 
-At the end of this article, I've provided an Appendix providing 
+So let's take a limit at infinity while staying within the domain of complex numbers.
+We'll need to use two facts about complex limits, b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5ODQ2NDk5LC02NjM4NTg1NzMsLTEzNj
-E4MjcwMDEsLTM3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkx
-NiwyMDczMTI1Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNz
-Y1MDc4NjYxLDQ5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEs
-MTQyMjgzMDIxMV19
+eyJoaXN0b3J5IjpbLTEyODY2MDg4MzQsLTY2Mzg1ODU3MywtMT
+M2MTgyNzAwMSwtMzcyNDk2MTAzLC01MDk4MDE2NTEsNDQ4NDIx
+OTE2LDIwNzMxMjU3ODYsLTEzMjY0NTc4NTIsNzYzOTIyNTM0LD
+E3NjUwNzg2NjEsNDk5NDk4NTQ2LC0yMDcwMTA1LDk2Mzk3MDY4
+MSwxNDIyODMwMjExXX0=
 -->
