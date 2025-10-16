@@ -234,10 +234,9 @@ Handling the recursive aspect of our new expression will require some subtlety.
 ## Conclusion
 Since the right hand side of <font color="purple"> ***Corollary 3***</font> corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
 
-> <font color="purple">***A Strange Conclusion***: <font
-> color="black">Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$.
+> <font color="purple">***A Strange Conclusion***<font color="black">: Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$.
 
-
+ 
 
 
 ## Appendix
@@ -315,7 +314,7 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDE2NjAzMCwxMDMwNjYwODU0LDU5Mj
+eyJoaXN0b3J5IjpbLTQ5MzE0OTExOCwxMDMwNjYwODU0LDU5Mj
 QzNTcxNSwxNDk5NDkzNzIwLDExMjMyOTcxMDcsMTE4NjIwMTQ0
 LC0xODk4ODYxOTA3LC0xOTY0NTY5MjYzLDY3NTE1OTY4LC04OD
 YyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4NzM4OTA4
