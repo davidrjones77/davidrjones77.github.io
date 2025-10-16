@@ -102,17 +102,12 @@ Then by <font color="blue">***Theorem 1***</font> and the <font color="red">indu
 
  Thus $P(n)$ is true for all $n \geq 1$. $\ \ \ \blacksquare$
 
+## Taking a Limit
 
-
-
-
-
-
-
-
+But 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk5Njg2OTksLTEzNjE4MjcwMDEsLT
+eyJoaXN0b3J5IjpbLTEyMDEyOTQyNjIsLTEzNjE4MjcwMDEsLT
 M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
 Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
 Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
