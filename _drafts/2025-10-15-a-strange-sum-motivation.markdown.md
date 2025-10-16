@@ -162,8 +162,11 @@ Although we didn't set out looking for this result, it came to us nonetheless.<b
 Consider the expression in ***Corrolary 1*** again: $$1 = \sum^{\infty}_{n=0} \frac{z}{(z+n)(z+n+1)}$$
 
 Conventionally, this equality tells us that the infinite series on the right hand side converges to 1.
+
 But it also tells us that we can expand 1 into an infinite series, namely an infinite series containing 1.
-In other words, this equality can be viewed recursively - we can interpret the series on the right hand side as infinitely containing itself.
+In other words, this equality can be viewed recursively - we can interpret the series on the right hand side as containing itself, infinitely!
+
+
 
 
 ## Appendix
@@ -240,7 +243,7 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDcwODA2OSwxMTIzMjk3MTA3LDExOD
+eyJoaXN0b3J5IjpbMTU4NTQ2Njg4OCwxMTIzMjk3MTA3LDExOD
 YyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2
 OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03OD
 czODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3
