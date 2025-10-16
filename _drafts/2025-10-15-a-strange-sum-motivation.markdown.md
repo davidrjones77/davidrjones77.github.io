@@ -15,7 +15,7 @@ $$\LARGE \sum^{\infty}_{a=0} \frac{\color{red}\Omega}{(\color{red}\Omega\color{b
 Where does this expression come from?
 I was initially interested in a much simpler question.
 
-***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
+> ***Simple Question:*** *When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?*
 
 In other words, for which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n'}+\frac{1}{n''}$?
 (Here, $n'$ and $n''$ are also whole numbers.)
@@ -34,14 +34,12 @@ We have   $$\begin{align*}
 
 It would seem at this point we can conjecture an answer to our ***Simple Question.***
 
-***Conjecture 1***
-Let $n \in \mathbb{N}_{\geq 1}$. 
+> ***Conjecture 1*** Let $n \in \mathbb{N}_{\geq 1}$. 
+> 
+> Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
+> ***Proof***   $$\begin{align*}  \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} = 
+> \frac{1}{n+1} + \frac{1}{n(n+1)}  \end{align*}$$
 
-Then $$\frac{1}{n} = \frac{1}{n+1} + \frac{1}{n(n+1)}$$
-***Proof***
-  $$\begin{align*}
- \frac{1}{n} = \frac{1(n+1)}{n(n+1)} = \frac{n + 1}{n(n+1)}  = \frac{n}{n(n+1)} + \frac{1}{n(n+1)} =  \frac{1}{n+1} + \frac{1}{n(n+1)} \ \ \ \blacksquare
-\end{align*}$$
 So we have an answer to our ***Simple Question*** - *the reciprocal of any whole number $n$ can be expressed as the sum of reciprocals of whole numbers.*
 Moreover, we now know a formula for that sum - our curiosity has rewarded us with information we weren't initially looking for.
 
@@ -50,15 +48,12 @@ And did our proof take advantage of anything intrinsic to whole numbers?
 In other words, we should be able to generalize our result (taking care to restrict $b$ to prevent division by zero).
 Let's do that.
 
-***Theorem 1***
-Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
-
-Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
-
-***Proof***
-  $$\begin{align*}
- \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} =  \frac{a}{b+1} + \frac{a}{b(b+1)} \ \ \ \blacksquare
-\end{align*}$$
+> ***Theorem 1*** Let $a, b \in \mathbb{C}$, where $b \notin \{-1, 0\}$. 
+> 
+> Then $$\frac{a}{b} = \frac{a}{b+1} + \frac{a}{b(b+1)}$$
+> 
+> ***Proof***   $$\begin{align*}  \frac{a}{b} &= \frac{a(b+1)}{b(b+1)} = \frac{ab + a}{b(b+1)}  = \frac{ab}{b(b+1)} + \frac{a}{b(b+1)} = 
+> \frac{a}{b+1} + \frac{a}{b(b+1)} \end{align*}$$
 
 ## Expanding Terms
 But why stop at two terms?
@@ -68,41 +63,40 @@ We should be able to expand terms on the right hand side of ***Theorem 1*** as m
 Let's generalize ***Theorem 1*** to a sum of $n$ terms, where $n$ is a whole number.
 Again, we must restrict $b$ to prevent division by zero.
 
- ***Theorem 2***
-Let $n \in \N_{\geq1}.$
-Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
-
-Then $$\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}$$
-
-***Proof***
-We give a proof by induction.
-
-Let $P(n)$ be the claim $\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}.$
-
-<font color="blue">*Base case:*</font>
-Letting $n=1,$ we have by ***Theorem 1*** 
- $$\begin{align*}
- &&\frac{a}{b} &= \frac{a}{b+1} + \frac{a}{b(b+1)} \\ \\
- \rightarrow && \frac{a}{b} &= \frac{a}{b+1} + \sum^0_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
-  \rightarrow && \frac{a}{b} &= \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} 
- \end{align*}$$ 
-
- Thus $P(1)$ is true. 
- \
-\
-<font color="blue">*Inductive step:*</font>
- Assume $P(n)$ is true for some fixed, arbitrary $n.$
-
-Then by <font color="blue">***Theorem 1***</font> and the <font color="red">inductive hypothesis</font>, 
- $$\begin{align*}
- && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\
- \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}- \frac{a}{b+n+1}} \\ \\
- \rightarrow && \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}} \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\ 
-  \rightarrow && \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\
-  \rightarrow && &P(n+1)
- \end{align*}$$
-
- Thus $P(n)$ is true for all $n \geq 1$. $\ \ \ \blacksquare$
+>  ***Theorem 2*** Let $n \in \N_{\geq1}.$ Let $a, b \in \mathbb{C}$,
+> where $b \notin \{-m \vert m \in \N_{0\leq n}\}$. 
+> 
+> Then $$\frac{a}{b} = \frac{a}{b+n} + \sum^{n-1}_{i=0}
+> \frac{a}{(b+i)(b+i+1)}$$
+> 
+> ***Proof*** We give a proof by induction.
+> 
+> Let $P(n)$ be the claim $\frac{a}{b} = \frac{a}{b+n} +
+> \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}.$
+> 
+> <font color="blue">*Base case:*</font> Letting $n=1,$ we have by
+> ***Theorem 1***   $$\begin{align*}  &&\frac{a}{b} &= \frac{a}{b+1} + \frac{a}{b(b+1)} \\ \\  \rightarrow && \frac{a}{b} &= \frac{a}{b+1} +
+> \sum^0_{i=0} \frac{a}{(b+i)(b+i+1)} \\ \\   \rightarrow && \frac{a}{b}
+> &= \frac{a}{b+n} + \sum^{n-1}_{i=0} \frac{a}{(b+i)(b+i+1)}  
+> \end{align*}$$ 
+> 
+>  Thus $P(1)$ is true.   
+>  
+>  <font color="blue">*Inductive step:*</font>  Assume $P(n)$ is true for some fixed, arbitrary $n.$
+> 
+> Then by <font color="blue">***Theorem 1***</font> and the <font
+> color="red">inductive hypothesis</font>,   $$\begin{align*}  &&
+> \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &= \sum^{n-1}_{i=0}
+> \frac{a}{(b+i)(b+i+1)} + \frac{a}{(b+n)(b+n+1)} \\ \\  \rightarrow &&
+> \sum^{n}_{i=0} \frac{a}{(b+i)(b+i+1)} &=\sum^{n-1}_{i=0}
+> \frac{a}{(b+i)(b+i+1)} \color{black}{+} \color{blue}{\frac{a}{b+n}-
+> \frac{a}{b+n+1}} \\ \\  \rightarrow && \sum^{n}_{i=0}
+> \frac{a}{(b+i)(b+i+1)} &= \color{red}{\frac{a}{b}- \frac{a}{b+n}}
+> \color{black} + \frac{a}{b+n}- \frac{a}{b+n+1} \\ \\    \rightarrow &&
+> \frac{a}{b}  &=  \frac{a}{b+n+1}+  \sum^{(n+1)-1}_{i=0}
+> \frac{a}{(b+i)(b+i+1)} \\ \\   \rightarrow && &P(n+1)  \end{align*}$$
+> 
+>  Thus $P(n)$ is true for all $n \geq 1$. $\ \ \ \blacksquare$
 
 ## Taking a Limit
 
@@ -211,11 +205,11 @@ But as we've noted at the start of this ***Appendix***, $\color{blue}(2)$ suffic
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NDIzODY5LC0xOTY0NTY5MjYzLDY3NT
-E1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcxMSw1NDk2NDAzNzEs
-LTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMT
-g2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYx
-MDMsLTUwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMT
-MyNjQ1Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTg4NjE5MDcsLTE5NjQ1NjkyNjMsNj
+c1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzExLDU0OTY0MDM3
+MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAwLC0yMT
+MxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLTM3MjQ5
+NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1Nzg2LC
+0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLDQ5OTQ5
+ODU0Nl19
 -->
