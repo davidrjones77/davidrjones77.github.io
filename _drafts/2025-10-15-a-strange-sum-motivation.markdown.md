@@ -170,13 +170,14 @@ By ***Lemma A.1,*** we have $$\begin{align*}
 && &=  \sqrt{\frac{a^2+b^2}{c'^2+d^2}}   \\ \\
 && &=  \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} \\ \\
 && \lim_{n \to \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}&=0 \\ \\
-\rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 
+\rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right| &=0 \ \ \ \square
 \end{align*}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDc3ODcxMSw1NDk2NDAzNzEsLTc4Nz
-M4OTA4MCwtMTQ4MjE5ODY4LDc2MjYwNTQwMCwtMjEzMTg2MTc5
-MCwtNjYzODU4NTczLC0xMzYxODI3MDAxLC0zNzI0OTYxMDMsLT
-UwOTgwMTY1MSw0NDg0MjE5MTYsMjA3MzEyNTc4NiwtMTMyNjQ1
-Nzg1Miw3NjM5MjI1MzQsMTc2NTA3ODY2MSw0OTk0OTg1NDYsLT
-IwNzAxMDUsOTYzOTcwNjgxLDE0MjI4MzAyMTFdfQ==
+eyJoaXN0b3J5IjpbMjAyMjYxMTA2OCwtOTk0Nzc4NzExLDU0OT
+Y0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNjA1NDAw
+LC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4MjcwMDEsLT
+M3MjQ5NjEwMywtNTA5ODAxNjUxLDQ0ODQyMTkxNiwyMDczMTI1
+Nzg2LC0xMzI2NDU3ODUyLDc2MzkyMjUzNCwxNzY1MDc4NjYxLD
+Q5OTQ5ODU0NiwtMjA3MDEwNSw5NjM5NzA2ODEsMTQyMjgzMDIx
+MV19
 -->
