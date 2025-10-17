@@ -136,7 +136,7 @@ Where does this leave us?
 
 <font color="purple">***Theorem 3***</font> tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
 
-Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
+Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b},$ and thus the only practical restriction is that $b \neq 0$. 
 
 It's natural to look for simplifying special cases of  <font color="purple">***Theorem 3***. 
  </font>First, let's give the special case of $\frac{a}{b}=1$.
@@ -316,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzcyMjA4NSw2NTg1NDQxOTAsLTczOD
-A3MzcwNiwxMDMwNjYwODU0LDU5MjQzNTcxNSwxNDk5NDkzNzIw
-LDExMjMyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOT
-Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
-MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
-YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
-MDAxXX0=
+eyJoaXN0b3J5IjpbMTYyOTkyODg1LDY1ODU0NDE5MCwtNzM4MD
+czNzA2LDEwMzA2NjA4NTQsNTkyNDM1NzE1LDE0OTk0OTM3MjAs
+MTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5Nj
+Q1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzEx
+LDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNj
+A1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4Mjcw
+MDFdfQ==
 -->
