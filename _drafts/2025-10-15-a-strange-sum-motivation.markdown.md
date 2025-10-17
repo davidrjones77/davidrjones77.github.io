@@ -134,7 +134,7 @@ We'll need to use two facts about complex limits, which are proved in the **Appe
 ## Special Cases
 Where does this leave us?
 
-***Theorem 3*** tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
+<font color="purple">***Theorem 3***</font> tells us that the ratio of any 2 complex numbers can be expressed as an infinite series, and gives us the form of that infinite series.
 
 Although the theorem restricts $b$ from being a non-positive integer, this is not a problem, since $\frac{a}{b}$ can always be expressed as $\frac{-a}{-b}$, and thus the only practical restriction is that $b \neq 0$. 
 
@@ -316,11 +316,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NTQ0MTkwLC03MzgwNzM3MDYsMTAzMD
-Y2MDg1NCw1OTI0MzU3MTUsMTQ5OTQ5MzcyMCwxMTIzMjk3MTA3
-LDExODYyMDE0NCwtMTg5ODg2MTkwNywtMTk2NDU2OTI2Myw2Nz
-UxNTk2OCwtODg2MjY0MzA4LC05OTQ3Nzg3MTEsNTQ5NjQwMzcx
-LC03ODczODkwODAsLTE0ODIxOTg2OCw3NjI2MDU0MDAsLTIxMz
-E4NjE3OTAsLTY2Mzg1ODU3MywtMTM2MTgyNzAwMSwtMzcyNDk2
-MTAzXX0=
+eyJoaXN0b3J5IjpbMTI3NzcyMjA4NSw2NTg1NDQxOTAsLTczOD
+A3MzcwNiwxMDMwNjYwODU0LDU5MjQzNTcxNSwxNDk5NDkzNzIw
+LDExMjMyOTcxMDcsMTE4NjIwMTQ0LC0xODk4ODYxOTA3LC0xOT
+Y0NTY5MjYzLDY3NTE1OTY4LC04ODYyNjQzMDgsLTk5NDc3ODcx
+MSw1NDk2NDAzNzEsLTc4NzM4OTA4MCwtMTQ4MjE5ODY4LDc2Mj
+YwNTQwMCwtMjEzMTg2MTc5MCwtNjYzODU4NTczLC0xMzYxODI3
+MDAxXX0=
 -->
