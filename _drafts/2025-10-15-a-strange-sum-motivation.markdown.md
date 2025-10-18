@@ -253,7 +253,7 @@ To get started, we're going to need to represent a ratio of complex numbers as t
 This is one of the first formulas given in any textbook introduction to complex numbers, but we demonstrate it here both to keep the presentation self contained and to maintain an attitude of developing the results in this article from first principles.
 
 ><font color="purple"> ***Lemma A.1*** 
->  <font color="black">Let $a,b,c,d \in \R$.
+>  <font color="black">Let $a,b,c,d \in \R,$ where not both $c=0$ and $d=0.$
 > Then $$\frac{a+bi}{c+di} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
 > <font color="purple"> ***Proof***
 ><font color="black">  $$\begin{align*}  &&\left(\frac{a+bi}{c+di}\right)\left(\frac{c-di}{c-di}\right) &=
@@ -266,7 +266,8 @@ We will use this to prove $\color{blue}(3)$, and then show that $\color{blue}(3)
 
 > <font color="purple">***Lemma A.2*** 
 >  <font color="black">Let $a,b,c,d \in \R$  and let $n \in \N.$
-> Then $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
+>  If not both $c+n=0$ and $d=0,$ then
+> $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|=0$$
 > 
 > <font color="purple">***Proof*** 
 >  <font color="black">Let $c' = c+n.$ By <font color="purple">***Lemma A.1***</font>, we have $$\begin{align*}  && \frac{a+bi}{c+di+n}&=\frac{ac'+bd}{c'^2+d^2} +
@@ -316,11 +317,11 @@ But as we've noted at the start of this **Appendix**, $\color{blue}(2)$ suffices
 
 Side quest complete!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTkyODg1LDY1ODU0NDE5MCwtNzM4MD
-czNzA2LDEwMzA2NjA4NTQsNTkyNDM1NzE1LDE0OTk0OTM3MjAs
-MTEyMzI5NzEwNywxMTg2MjAxNDQsLTE4OTg4NjE5MDcsLTE5Nj
-Q1NjkyNjMsNjc1MTU5NjgsLTg4NjI2NDMwOCwtOTk0Nzc4NzEx
-LDU0OTY0MDM3MSwtNzg3Mzg5MDgwLC0xNDgyMTk4NjgsNzYyNj
-A1NDAwLC0yMTMxODYxNzkwLC02NjM4NTg1NzMsLTEzNjE4Mjcw
-MDFdfQ==
+eyJoaXN0b3J5IjpbLTQwMTQ2OTI4MCwxNjI5OTI4ODUsNjU4NT
+Q0MTkwLC03MzgwNzM3MDYsMTAzMDY2MDg1NCw1OTI0MzU3MTUs
+MTQ5OTQ5MzcyMCwxMTIzMjk3MTA3LDExODYyMDE0NCwtMTg5OD
+g2MTkwNywtMTk2NDU2OTI2Myw2NzUxNTk2OCwtODg2MjY0MzA4
+LC05OTQ3Nzg3MTEsNTQ5NjQwMzcxLC03ODczODkwODAsLTE0OD
+IxOTg2OCw3NjI2MDU0MDAsLTIxMzE4NjE3OTAsLTY2Mzg1ODU3
+M119
 -->
