@@ -118,6 +118,25 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-link { display: block; font-size: 24px; }
 
+/** Katex */
+blockquote font {
+  font-style: normal;
+}
+
+blockquote p strong em font {
+  font-style: italic;
+  font-weight: bold;
+}
+
+em {
+  font-style: normal;
+}
+
+strong em {
+  font-style: italic;
+  font-weight: bold;
+}
+
 /** Posts */
 .post-header { margin-bottom: 30px; }
 

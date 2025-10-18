@@ -31,6 +31,11 @@ github_username:  davidrjones77
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-katex
+  
+markdown: kramdown
+kramdown:
+  math_engine: katex
 
 # Exclude from processing.
 # The following items will not be processed, by default.

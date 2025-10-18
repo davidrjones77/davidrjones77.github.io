@@ -3,6 +3,7 @@ layout: post
 title:  "A Strange Sum"
 date:   2025-10-13 20:09:15 -0400
 categories: infinite_series
+katex: True
 ---
 
 Here's an interesting one -<br>An infinite series with infinitely many infinite regressions...<br>Are there values of omega (in red) for which this series is actually defined?<br>Are there values of omega for which this series actually converges?<br>Can these questions even can be answered?<br>I'll give you a hint - the answer to the last one is "yes"   ;-)
