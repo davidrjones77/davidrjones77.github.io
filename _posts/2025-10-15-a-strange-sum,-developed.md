@@ -249,7 +249,7 @@ It suffices to show<br>
 but, as we will demonstrate, showing<br>
 <center>$$\lim_{n \to \infty}\left|\frac{a}{b+n}\right| =0 \ \ \ \ \color{blue}(3)$$</center> suffices as well.
 
-To get started, we're going to need to represent a complex fraction as the sum of complex fractions, so let's begin there.
+To get started, we're going to need to represent a complex fraction as a complex number in standard form, so let's begin there.
 
 This is one of the first formulas given in any textbook introduction to complex numbers, but we demonstrate it here both to keep the presentation self contained and to maintain an attitude of developing the results in this article from first principles.
 
@@ -281,10 +281,11 @@ We will use this to prove $\color{blue}(3)$, and then show that $\color{blue}(3)
 > \\ \\ && &= 
 > \sqrt{\frac{\left(a^2+b^2\right)\left(c'^2+d^2\right)}{\left(c'^2+d^2\right)^2}}
 > \\ \\ && &=  \sqrt{\frac{a^2+b^2}{c'^2+d^2}}   \\ \\ && &= 
-> \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} \\ \\ && \lim_{n \to
-> \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}&=0 \\ \\
-> \rightarrow && \lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|
-> &=0  \end{aligned}$$</center></font>
+> \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} & \color{blue}(4) \\ \\
+> \end{aligned}$$</center></font><font color="black">But $$\lim_{n \to
+> \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}=0$$
+> and so by</font> <font color="blue">(4)</font> <font color="black">we have $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|
+> =0$$</font>
 
 \
 This proves $\color{blue}(3)$.<br>

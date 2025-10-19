@@ -21,7 +21,7 @@
 title: Math and Code
 email: davidrjones77@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Fun
+  
 baseurl: / # the subpath of your site, e.g. /blog
 url: https://davidrjones77.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
