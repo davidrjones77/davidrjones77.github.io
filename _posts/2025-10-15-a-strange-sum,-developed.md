@@ -53,7 +53,7 @@ Moreover, we now know a formula for that sum - our curiosity has rewarded us wit
 
 But hang on - is there anything special about the 1 in each numerator?  
 And did our proof take advantage of anything intrinsic to whole numbers?  
-In other words, we can generalize our result (taking care to restrict $b$ to prevent division by zero).  
+In other words, we can generalize our result (taking care to prevent division by zero).  
 Let's do that.
 
 > ***<font color="purple">Theorem 1</font>*** 
