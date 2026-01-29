@@ -41,7 +41,7 @@ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find
 
 It would seem at this point we can conjecture an answer to our ***<font color="purple">Simple Question</font>***.
 
-We use the notation $\mathbb{N}$ to indicate the set of natural numbers *excluding* zero, and $\mathbb{N}_0$ to indicate the set of natural numbers *including* zero.
+(We use the notation $\mathbb{N}$ to indicate the set of natural numbers *excluding* zero, i.e. the whole numbers, and $\mathbb{N}_0$ to indicate the set of natural numbers *including* zero.)
 
 >***<font color="purple">Conjecture 1</font>***  
 ><font color="black">  Let $n \in \mathbb{N}$.<br><br></font>
