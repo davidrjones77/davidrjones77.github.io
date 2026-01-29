@@ -41,7 +41,7 @@ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find
 
 It would seem at this point we can conjecture an answer to our ***<font color="purple">Simple Question</font>***.
 
-(We use the notation $\mathbb{N}$ to indicate the set of natural numbers *excluding* zero, i.e. the whole numbers, and $\mathbb{N}_0$ to indicate the set of natural numbers *including* zero.)
+We use the notation $\mathbb{N}$ to indicate the set of natural numbers excluding zero, i.e. the whole numbers.
 
 >***<font color="purple">Conjecture 1</font>***  
 ><font color="black">  Let $n \in \mathbb{N}$.<br><br></font>
@@ -74,7 +74,7 @@ We should be able to expand terms on the right hand side of ***<font color="purp
 Let's generalize ***<font color="purple">Theorem 1</font>*** to a sum of $n$ terms, where $n$ is a whole number.  
 Again, we must restrict $b$ to prevent division by zero.
 
-We use the notation $\N_{0\leq n}$ to indicate the set of  non negative integers from $0$ to $n$ inclusive, for some $n \in \N_0$.
+We use the notation $\N_{0\leq n}$ to indicate the set of  non negative integers from $0$ to $n$ inclusive, for some $n \in \N$.
 
 > ***<font color="purple">Theorem 2</font>***
 > <font color="black"> Let $n \in \N.$ Let $a, b \in \mathbb{C}$, where $b \notin \{-m \vert m \in \N_{0\leq n}\}$.</font><br>
