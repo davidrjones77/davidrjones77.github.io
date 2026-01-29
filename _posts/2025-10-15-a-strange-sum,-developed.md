@@ -25,10 +25,16 @@ I was initially interested in a much simpler question.
 In other words -  
 For which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n^\prime}+\frac{1}{n^{\prime\prime}}$, where $n^\prime$ and $n^{\prime\prime}$ are also whole numbers?
 
+For convenience in considering reciprocals, we exclude $0$ as a whole number. \\
+We use the notation $\mathbb{N}$ to indicate the set of whole numbers (i.e. the set of natural numbers excluding zero).
+
 The first thing you might notice is $\frac{1}{1}=\frac{1}{2}+\frac{1}{2}$.  
 So far, so good!
 
-Continuing the pattern, you might try  $\frac{1}{2}=\frac{1}{3}+x$ and solve for $x.$  
+Continuing the pattern, you might next consider $\frac{1}{2}=\frac{1}{3}+x.$ \\
+Is $x$ is the reciprocal of a whole number? \\
+I readily admit not knowing the value of $x$ from sight when I considered this!
+
 We have  
 <center>$$\begin{aligned}
 && x&=\frac{1}{2}-\frac{1}{3} \\  \\
@@ -40,8 +46,6 @@ Thus $\frac{1}{2}=\frac{1}{3}+\frac{1}{6}$, and continuing this approach we find
 
 
 It would seem at this point we can conjecture an answer to our ***<font color="purple">Simple Question</font>***.
-
-We use the notation $\mathbb{N}$ to indicate the set of natural numbers excluding zero, i.e. the whole numbers.
 
 >***<font color="purple">Conjecture 1</font>***  
 ><font color="black">  Let $n \in \mathbb{N}$.<br><br></font>
