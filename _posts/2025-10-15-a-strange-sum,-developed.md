@@ -23,7 +23,7 @@ I was initially interested in a much simpler question.
 > ***<font color="purple">Simple Question</font>***: *<font color="black"> When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?</font>*
 
 In other words -  
-For which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n^\prime}+\frac{1}{n^{\prime\prime}}$, where $n^\prime$ and $n^{\prime\prime}$ are also whole numbers?
+For which whole numbers $n$ can we write $\frac{1}{n}=\frac{1}{n^\prime}+\frac{1}{n^{\prime\prime}}$ where $n^\prime$ and $n^{\prime\prime}$ are also whole numbers?
 
 For convenience in considering reciprocals, we exclude $0$ as a whole number. \\
 We use the notation $\mathbb{N}$ to indicate the set of whole numbers (i.e. the set of natural numbers excluding zero).
@@ -33,7 +33,7 @@ So far, so good!
 
 Continuing the pattern, you might next consider $\frac{1}{2}=\frac{1}{3}+x.$ \\
 Is $x$ is the reciprocal of a whole number? \\
-I readily admit not knowing the value of $x$ from sight when I considered this!
+Let's do the algebra.
 
 We have  
 <center>$$\begin{aligned}
