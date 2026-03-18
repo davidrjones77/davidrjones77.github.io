@@ -194,44 +194,30 @@ To prove the corollary, we define a double limit corresponding to the infinitely
 > 
 > 
 > ***<font color="purple">Proof</font>***
-> <font color="black">For a fixed, arbitrary $n \in \N,$ with $i \in \N, i \lt n$ we make the following definitions.<br>
-> Define $f_n()=1.$<br>
-> Define $f_{i}()=\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{i+1}())}.$<br><br>
-> We define $f_\infty() =\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
-> \\ \mathllap{n} \to \mathrlap{\infty}}} f_i().$</font><br>
+> <font color="black">For each \(n \geq 1\), define the \(n\)-deep finite truncation bottom-up:<br>
+> \[F_1 \;=\; \sum_{k=0}^{\infty} \frac{z}{(z+k)(z+k+1)}\]<br>
+> \[F_n \;=\; \sum_{k=0}^{\infty} \frac{z}{(z+k)\bigl(z+k+F_{n-1}\bigr)}, \qquad n \geq 2.\]<br>
+> The infinite nested expression is defined as \(\displaystyle\lim_{n\to\infty} F_n\).<br><br>
 >
-> <font color="black"> To prove the theorem, it suffices to show $f_\infty()=1.$</font><br>
+> <font color="blue"><i> Claim</i></font><br>
 > 
-> <font color="black"> We first prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$</font><br>
+> \(F_n = 1\) for all \(n \geq 1\).<br><br>
 > 
-> <font color="black"> We give a proof by induction.</font><br>
 > 
-> <font color="black"> Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$<br><br><br></font>
-> *<font color="blue">Base case:</font>*
-> <font color="black">$P(1)$ is vacuously true.</font><br><br>
-> 
-> *<font color="blue">Inductive step:</font>*<br>
-> <font color="black"> Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$</font><br>
+> <font color="blue"><i>Base case:</i></font><br>
+> <font color="black"> \(F_1 = 1\) by Corollary 1.</font><br><br>
+> <font color="blue"><i>Inductive step:</i></font><br>
+> <font color="black"> Suppose \(F_{n-1} = 1\) for some \(n \geq 2\). Then<br>
 >
-> <font color="black">Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$</font><br><br><font color="black">
-> But by our definitions and</font> ***<font color="purple">Corollary 1</font>***<font color="black">, we have 
-> $$f_{n-1}() = \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
-> \frac{z}{(z+k)(z+k+1)}= 1$$</font><br>
+>  \[F_n \;=\; \sum_{k=0}^{\infty} \frac{z}{(z+k)(z+k+F_{n-1})}
+           \;=\; \sum_{k=0}^{\infty} \frac{z}{(z+k)(z+k+1)}
+           \;=\; 1,\]
 > 
->  <font color="black">This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
-> 1.$</font><br>
-> 
-> <font color="black">Thus $P(n)$ is true for all $n \geq 1$.</font><br>  
+>  again by Corollary 1.<br><br>
+> <font color="black"> Therefore \(F_n = 1\) for all \(n \geq 1\), and</font><br>  
 >
-> <font color="black">That is, $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$<br><br>
-> 
-> <font color="black">To conclude the proof, we have
-> $$f_\infty()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
-> \\ \mathllap{n} \to \mathrlap{\infty}}}
-> f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
-> \mathllap{n} \to \mathrlap{\infty}}} 1=1$$</font>
+>  \[\lim_{n \to \infty} F_n \;=\; \lim_{n \to \infty} 1 \;=\; 1.\]
 
-<br>
 ## Conclusion
 Since the right hand side of ***<font color="purple">Corollary 3</font>*** corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
 
