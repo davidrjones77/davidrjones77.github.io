@@ -183,7 +183,7 @@ Intuitively, it seems there shouldn't be a reason why the recursive form of ***<
 
 We give a proof by induction that, for each $n \in \N,$ defines a set of functions which capture the right hand side of ***<font color="purple">Corollary 1</font>*** nested within itself $n-1$ times.
 
-To prove the corollary, we define a double limit corresponding to the infinitely nested case, and show that this double limit converges to 1.
+To prove the corollary, we define a limit corresponding to the infinitely nested case, and show that this limit converges to 1.
 
 > ***<font color="purple">Corollary 3</font>***
 > <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$.</font><br>
