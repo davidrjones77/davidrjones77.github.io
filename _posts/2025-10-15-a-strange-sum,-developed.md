@@ -197,8 +197,7 @@ To prove the corollary, we define a double limit corresponding to the infinitely
 > <font color="black">For a fixed, arbitrary $n \in \N,$ with $i \in \N, i \lt n$ we make the following definitions.<br>
 > Define $f_n()=\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+1)}.$<br>
 > Define $f_{i}()=\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{i+1}())}.$<br><br>
-> We define $f_\infty() =\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
-> \\ \mathllap{n} \to \mathrlap{\infty}}} f_i().$</font><br>
+> We define $f_\infty() =\lim\limits_{n \to \infty} f_1().$</font><br>
 >
 > <font color="black"> To prove the theorem, it suffices to show $f_\infty()=1.$</font><br>
 > 
@@ -215,7 +214,7 @@ To prove the corollary, we define a double limit corresponding to the infinitely
 >
 > <font color="black">Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$</font><br><br><font color="black">
 > But by our definitions and</font> ***<font color="purple">Corollary 1</font>***<font color="black">, we have 
-> $$f_{n-1}() = \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
+> $$f_{n-1}() = \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0} \frac{z}{(z+k)\left(z+k+\left[\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+1)}\right]\right)}=\sum^{\infty}_{k=0}
 > \frac{z}{(z+k)(z+k+1)}= 1$$</font><br>
 > 
 >  <font color="black">This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
@@ -226,10 +225,8 @@ To prove the corollary, we define a double limit corresponding to the infinitely
 > <font color="black">That is, $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$<br><br>
 > 
 > <font color="black">To conclude the proof, we have
-> $$f_\infty()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty}
-> \\ \mathllap{n} \to \mathrlap{\infty}}}
-> f_i()=\lim\limits_{\substack{\mathllap{i} \to \mathrlap{\infty} \\
-> \mathllap{n} \to \mathrlap{\infty}}} 1=1$$</font>
+> $$f_\infty()=\lim\limits_{n \to \infty}
+> f_1()=\lim\limits_{n \to \infty} 1=1$$</font>
 
 <br>
 ## Conclusion
