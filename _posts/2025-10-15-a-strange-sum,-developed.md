@@ -18,7 +18,7 @@ Let's call the above expression $\sum^\infty_\Omega$.
 
 Where does $\sum^\infty_\Omega$ come from?
 
-I was initially interested in a much simpler question.
+We start with a much simpler question.
 
 > ***<font color="purple">Simple Question</font>***: *<font color="black"> When can we express the reciprocal of a whole number as a sum of reciprocals of whole numbers?</font>*
 
@@ -175,46 +175,41 @@ Conventionally, this equality tells us that the infinite series on the right han
 
 But it also tells us there exists an expansion of 1 into an infinite series, namely an infinite series itself containing 1.
 
-In other words, this equality can be viewed recursively - we can interpret the series on the right hand side as containing itself, infinitely!
+In other words, this equality can be viewed recursively - we can interpret the series on the right hand side as containing itself!<br>
+ 
+Enter our strange sum, as a conjecture:<br>
 
-So, why stop at an infinite series if you can have an infinitely recursive infinite series?
-
-Intuitively, it seems there shouldn't be a reason why the recursive form of ***<font color="purple">Corollary 1</font>*** should not hold, so let's write it out and prove it as a corollary.
-
-We give a proof by induction that, for each $n \in \N,$ defines a set of functions which capture the right hand side of ***<font color="purple">Corollary 1</font>*** nested within itself $n-1$ times.
-
-To prove the corollary, we define a limit corresponding to the infinitely nested case, and show that this limit converges to 1.
-
-> ***<font color="purple">Corollary 3</font>***
+> ***<font color="purple">Conjecture 2</font>***
 > <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$.</font><br>
 > <font color="black">Then $$\LARGE 1=\sum^{\infty}_{a=0}
 > \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
 > \frac{z}{(z+b)\left(z+b+\sum^{\infty}_{c=0}
-> \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$</font>
-> 
-> 
-> ***<font color="purple">Proof</font>***
+> \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$</font><br><br>
+
+We first give a proof of ***<font color="purple">Conjecture 2</font>*** for *arbitrary* (but finite) recursion depth.<br>
+We then leap to *infinite* recursion depth (but with a catch).<br><br>
+The proof of finite recursion given below may seem a little unusual, but it allows us to easily set up the infinite case.
+
+
+> ***<font color="purple">Proof - Finite Recursion Depth</font>***
 > <font color="black">For a fixed, arbitrary $n \in \N,$ with $i \in \N, i \lt n$ we make the following definitions.<br>
-> Define $f_n()=\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+1)}.$<br>
+> Define $f_n()=1.$<br>
 > Define $f_{i}()=\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{i+1}())}.$<br><br>
-> We define $f_\infty() =\lim\limits_{n \to \infty} f_1().$</font><br>
 >
-> <font color="black"> To prove the theorem, it suffices to show $f_\infty()=1.$</font><br>
-> 
-> <font color="black"> We first prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$</font><br>
+> <font color="black"> We prove $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$</font><br>
 > 
 > <font color="black"> We give a proof by induction.</font><br>
 > 
-> <font color="black"> Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$<br><br><br></font>
-> *<font color="blue">Base case:</font>*
+> <font color="black"> Let $P(n)$ be the claim $f_i()=1$ for all $i$ such that $i \lt n.$<br><br></font>
+> <font color="blue"><i>Base case:</i></font>
 > <font color="black">$P(1)$ is vacuously true.</font><br><br>
 > 
-> *<font color="blue">Inductive step:</font>*<br>
+> <font color="blue"><i>Inductive step:</i></font><br>
 > <font color="black"> Assume $P(n-1)$ is true for some fixed, arbitrary $n \gt 1.$</font><br>
 >
 > <font color="black">Then $f_{i}()=1$ for all $i$ such that $i \lt n-1.$</font><br><br><font color="black">
-> But by our definitions and</font> ***<font color="purple">Corollary 1</font>***<font color="black">, we have 
-> $$f_{n-1}() = \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0} \frac{z}{(z+k)\left(z+k+\left[\sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+1)}\right]\right)}=\sum^{\infty}_{k=0}
+> But by our definitions and</font> <font color="purple"><b><i>Corollary 1</i></b></font><font color="black">, we have 
+> $$f_{n-1}() = \sum^{\infty}_{k=0} \frac{z}{(z+k)(z+k+f_{n}())}=\sum^{\infty}_{k=0}
 > \frac{z}{(z+k)(z+k+1)}= 1$$</font><br>
 > 
 >  <font color="black">This shows $P(n-1) \rightarrow P(n)$ for some fixed, arbitrary $n \gt
@@ -223,17 +218,45 @@ To prove the corollary, we define a limit corresponding to the infinitely nested
 > <font color="black">Thus $P(n)$ is true for all $n \geq 1$.</font><br>  
 >
 > <font color="black">That is, $f_i()=1$ for all $i$ such that $i \lt n,$ for all $n.$<br><br>
-> 
-> <font color="black">To conclude the proof, we have
+>
+> <font color="blue"><i>Conclusion:</i></font><br>
+> The conjecture is true for any <i>finite</i> recursion depth.</font>
+
+<br>From the proof of the finite case, we can take a limit to prove the infinite case:<br>
+> <font color="purple"><b><i>Proof - Infinite Recursion Depth</i></b></font>
+> <br><font color="black">Continuing from the proof of the finite case, we define $$f_\infty() =\lim\limits_{n \to \infty} f_1().$$</font>
+> <font color="black"> To prove the theorem, it suffices to show $f_\infty()=1.$</font><br>
+> <font color="black">But
 > $$f_\infty()=\lim\limits_{n \to \infty}
-> f_1()=\lim\limits_{n \to \infty} 1=1$$</font>
+> f_1()=\lim\limits_{n \to \infty} 1=1.$$</font>
+
+<br>
+## Reflection
+We have proven ***<font color="purple">Conjecture 2</font>*** for both arbitrary (finite) and infinite recursion depth, but the infinite case has a catch.<br>
+Did you notice it?<br>
+The proof of the inifinite case follows from treating $n=1$ as a *projective point* - a point at an infinite horizon.<br>
+
+In order to state ***<font color="purple">Conjecture 2</font>*** as ***<font color="purple">Corollary 3</font>*** we need to acknowledge this projective point, since it is not captured explicitly in the expression itself.<br>
+We call such a projective point (for an infinite recursive expression) an *omega ($\omega$) point*.<br>
+
+> ***<font color="purple">Corollary 3</font>***
+> <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$.</font><br>
+> <font color="black">Then for finite recursion depth and infinite recursion depth with $\omega=1$ $$\LARGE 1=\sum^{\infty}_{a=0}
+> \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
+> \frac{z}{(z+b)\left(z+b+\sum^{\infty}_{c=0}
+> \frac{z}{(z+c)(z+c+...)}\right)}\right)}$$</font>
 
 <br>
 ## Conclusion
-Since the right hand side of ***<font color="purple">Corollary 3</font>*** corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset.
+Since the right hand side of ***<font color="purple">Corollary 3</font>*** corresponds to our original expression $\sum^\infty_\Omega$, we now know the answer to the domain and convergence questions asked at the outset, but with an additional constraint.
 
-> ***<font color="purple">A Strange Conclusion</font>***<font color="black">: Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$.</font>
+> ***<font color="purple">A Strange Conclusion</font>***<font color="black">: Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$ for $\omega=1$.</font>
 
+Questions remain.<br>
+Is $\omega=1$ unique? Are there other ways to anaylze our strange sum?<br>
+
+We can further insights by turning our perspective inside out.<br>
+We will investigate this in a future post.
  
 <br>
 
