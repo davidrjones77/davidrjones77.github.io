@@ -234,7 +234,7 @@ The proof of finite recursion given below may seem a little unusual, but it allo
 ## Reflection
 We have proven ***<font color="purple">Conjecture 2</font>*** for both arbitrary (finite) and infinite recursion depth, but the infinite case has a catch.<br>
 Did you notice it?<br>
-The proof of the inifinite case follows from treating $n=1$ as a *projective point* - a point at an infinite horizon.<br>
+The proof of the inifinite case follows from treating $f_n()=1$ as a *projective point* - a point at an infinite horizon.<br>
 
 In order to state ***<font color="purple">Conjecture 2</font>*** as ***<font color="purple">Corollary 3</font>*** we need to acknowledge this projective point, since it is not captured explicitly in the expression itself.<br>
 We call such a projective point (for an infinite recursive expression) an *omega ($\omega$) point*.<br>
