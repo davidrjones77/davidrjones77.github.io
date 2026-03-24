@@ -240,7 +240,7 @@ In order to state ***<font color="purple">Conjecture 2</font>*** as ***<font col
 We call such a projective point (for an infinite recursive expression) an *omega ($\omega$) point*.<br>
 
 > ***<font color="purple">Corollary 3</font>***
-> <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$.</font>
+> <font color="black"> Let $z \in \mathbb{C}$, where $z \notin \Z_{\leq0}$.</font><br>
 > <font color="black">Then for finite recursion depth and infinite recursion depth with $\omega=1$ $$\LARGE 1=\sum^{\infty}_{a=0}
 > \frac{z}{(z+a)\left(z+a+\sum^{\infty}_{b=0}
 > \frac{z}{(z+b)\left(z+b+\sum^{\infty}_{c=0}
