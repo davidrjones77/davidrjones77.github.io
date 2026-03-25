@@ -253,9 +253,10 @@ Since the right hand side of ***<font color="purple">Corollary 3</font>*** corre
 > ***<font color="purple">A Strange Conclusion</font>***<font color="black">: Let $\Omega \in \mathbb{C}$, where $\Omega \notin \Z_{\leq0}$. Then $\sum^\infty_\Omega=1$ for $\omega=1$.</font>
 
 Questions remain.<br>
-Is $\omega=1$ unique? Are there other ways to anaylze our strange sum?<br>
+Is $\omega=1$ unique?<br>
+Are there other ways to anaylze our strange sum?<br>
 
-We can further insights by turning our perspective inside out.<br>
+We can get further insights by turning our perspective inside out.<br>
 We will investigate this in a future post.
  
 <br>
