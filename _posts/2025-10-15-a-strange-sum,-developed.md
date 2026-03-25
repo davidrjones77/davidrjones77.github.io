@@ -311,7 +311,7 @@ We will use this to prove $\color{blue}(3)$, and then show that $\color{blue}(3)
 > \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}} & \color{blue}(4) \\ \\
 > \end{aligned}$$</center></font><font color="black">But $$\lim_{n \to
 > \infty} \sqrt{\frac{a^2+b^2}{\left(c+n\right)^2+d^2}}=0$$
-> and so by</font> $\color{blue}(4)$ <font color="black">we have $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|
+> and so by $\color{blue}(4)$ we have $$\lim_{n \to \infty} \left| \frac{a+bi}{c+di+n} \right|
 > =0$$</font>
 
 \
